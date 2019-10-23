@@ -1,2 +1,2 @@
-# LeetcodeHub
-Leetcode solution (C++ and Python)
+# LeetCodeHub
+LeetCode solution (C++ and Python)
