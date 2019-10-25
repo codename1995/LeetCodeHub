@@ -23,15 +23,18 @@ LeetCode solution (C++ and Python)
 | 15 二进制中1的个数  | 191 位1的个数  | 进阶338.比特位的个数  |
 | 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/pow/pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
-| 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [c++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/deleteNode/deleteNode.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/deleteNode/deleteNode.py)  |
-|   | 203  |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/deleteNode/deleteNode.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/deleteNode/deleteNode.py)  |
+|   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/RemoveLinkedListElements/removeElements.cpp)  |
+| 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](RemoveDuplicatesFromSortedList),[Python]()  |
+|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+<!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 |   |   |   |
 | --- | --- | --- | 
 |32 从上往下打印二叉树|102 二叉树层序遍历||
+
+<!-- [C++](),[Python]() -->
+<!-- [](https://leetcode-cn.com/problems/) -->
