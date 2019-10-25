@@ -2,6 +2,7 @@ class Solution {
 public:
     bool isMatch(string s, string p) {
         vector<vector<bool>> dp(s.size()+1, vector<bool>(p.size()+1, false));
+        // dp[i][j]==true denotes that s[i:] match p[j:]
         
         dp.back().back() = true;
         for (int i=s.size();i!=-1;i--){

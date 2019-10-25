@@ -26,8 +26,8 @@ LeetCode solution (C++ and Python)
 | 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/deleteNode/deleteNode.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/deleteNode/deleteNode.py)  |
 |   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/RemoveLinkedListElements/removeElements.cpp)  |
 | 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/RemoveDuplicatesFromSortedList/deleteDuplicates.cpp)  |
-|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
-|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+| 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/tree/master/cpp/10_RegularExpressionMatching),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.%20Regular%20Expression%20Matching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
+| 20 表示数值的字符串  | 65 [Valid Number](https://leetcode-cn.com/problems/valid-number/) | [C++](),[Python]()  |
 |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
 |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
 |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
