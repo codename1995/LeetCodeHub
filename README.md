@@ -2,9 +2,9 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题
+1. 《剑指offer》习题(16/68)
 
-## Solution
+## coding-interviwe (剑指offer)
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
 | 03 数组中重复的数字 | 287 寻找重复数 |  |  
@@ -23,8 +23,8 @@ LeetCode solution (C++ and Python)
 | 15 二进制中1的个数  | 191 位1的个数  | 进阶338.比特位的个数  |
 | 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/pow/pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
-| 18 删除链表的节点  | 237  | 203  |
-|   |   |   |
+| 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [c++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/deleteNode/deleteNode.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/deleteNode/deleteNode.py)  |
+|   | 203  |   |
 |   |   |   |
 |   |   |   |
 |   |   |   |
