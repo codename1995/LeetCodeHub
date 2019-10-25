@@ -4,7 +4,7 @@ LeetCode solution (C++ and Python)
 ## TODO
 1. 《剑指offer》习题
 
-## 
+## Solution
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
 | 03 数组中重复的数字 | 287 寻找重复数 |  |  
@@ -21,7 +21,7 @@ LeetCode solution (C++ and Python)
 | 13 机器人的运动范围  |   | 可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
 | 14 剪绳子 | 343 整数拆分   |   |
 | 15 二进制中1的个数  | 191 位1的个数  | 进阶338.比特位的个数  |
-| 16 数值的整数次方 | 50 Pow(x, n)  |   |
+| 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/pow/pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
 | 18 删除链表的节点  | 237  | 203  |
 |   |   |   |
