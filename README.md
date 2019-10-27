@@ -15,12 +15,13 @@ LeetCode solution (C++ and Python)
 |08 二叉树的下一个节点|510. [Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/510_Inorder_Successor_in_BST_II/Inorder_Successor_in_BST_II.cpp) |
 |09 用两个栈实现队列   |  232 [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.cpp)  |
 | 09_02 用两个队列实现栈   |  225 [Implement Stack using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/225_Implement_Stack_using_Queue/Implement_Stack_using_Queue.cpp)<u>**两个栈实现队列，一个队列实现栈!!!**</u>  |
-| 10 斐波那契数列  |509 斐波那契数列   |   |
-| 11 旋转数组中的最小数字  | 153. 寻找旋转排序数组中的最小值  |   |
-| 12 矩阵中的路径  | 79 单词搜索  |   |
+| 10 斐波那契数列  |509 [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/)   | [C++]()  |
+| 11 旋转数组中的最小数字  | 153 [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/153_Find_Minimum_in_Rotated_Sorted_Array/Find_Minimum_in_Rotated_Sorted_Array.cpp)   |
+| 12 矩阵中的路径  | 79 [Word Search](https://leetcode-cn.com/problems/word-search/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/79_Word_Search/Word_Search.cpp)  |
 | 13 机器人的运动范围  |   | 可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
-| 14 剪绳子 | 343 整数拆分   |   |
-| 15 二进制中1的个数  | 191 位1的个数  | 进阶338.比特位的个数  |
+| 14 剪绳子 | 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/Interger_Break.cpp)  |
+| 15 二进制中1的个数  | 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/Number_of_1_Bits.cpp)  |
+||Advance 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)|
 | 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/50_Pow/Pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
 | 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  |
