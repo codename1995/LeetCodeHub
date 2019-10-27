@@ -1,3 +1,9 @@
+#include<vector>
+#include<iostream>
+#include<cstring>
+#include<algorithm>
+using namespace std; 
+
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
