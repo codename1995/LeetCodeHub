@@ -23,7 +23,8 @@ public:
 	}
 };
 
-// ====================²âÊÔ´úÂë====================
+// ====================Test Module====================
+// Following code adapted from https://github.com/zhedahht/CodingInterviewChinese2/
 void Test(const char* testName, const char* str, const char* pattern, bool expected)
 {
 	if (testName != nullptr)
