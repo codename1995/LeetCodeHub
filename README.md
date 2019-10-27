@@ -13,7 +13,7 @@ LeetCode solution (C++ and Python)
 |06 从尾到头打印链表|206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/206_Reverse_Linked_List/Reverse_Linked_List.cpp)|
 |07 重建二叉树| 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)|
 |08 二叉树的下一个节点|510. [Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/510_Inorder_Successor_in_BST_II/Inorder_Successor_in_BST_II.cpp) |
-|09 用两个栈实现队列   |  232. 用栈实现队列 | leetcode把问题描述的更具体，并且框架也搭好了，更有助于集中精力解决问题本身，而不是思考框架的边边角角；但是手撕代码时可能不会提供这么完备的框架。简单来说，lc适合刷知识点，牛客的破界面适合模拟面试环境。  |
+|09 用两个栈实现队列   |  232 [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |   |
 | 09_02 用两个队列实现栈   |  232. 用队列实现栈 | lc上的题解给出了用一个队列实现栈的方法，感觉更通俗，也更实用。<u>**两个栈实现队列，一个队列实现栈!!!**</u>  |
 | 10 斐波那契数列  |509 斐波那契数列   |   |
 | 11 旋转数组中的最小数字  | 153. 寻找旋转排序数组中的最小值  |   |
@@ -27,10 +27,13 @@ LeetCode solution (C++ and Python)
 |   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/Remove_Linked_List_Elements.cpp)  |
 | 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/83_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.cpp)  |
 | 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/10_Regular_Expression_Matching/Regular_Expression_Matching.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.RegularExpressionMatching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
-| 20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](),[Python]()  |
-|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
-|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
-|   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  |
+| *20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](),[Python]()  |
+| 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [C++](),[Python]()  |
+| 22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](),[Python]()  |
+| 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](),[Python]()  |
+| 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [C++](),[Python]()  |
+| 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](),[Python]()  |
+| 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++](),[Python]()  |
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 |   |   |   |
 | --- | --- | --- | 
