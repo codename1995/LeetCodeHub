@@ -35,10 +35,9 @@ LeetCode solution (C++ and Python)
 | 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [C++](),[Python]()  |
 | 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](),[Python]()  |
 | 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++](),[Python]()  |
-<!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 |   |   |   |
-| --- | --- | --- | 
 |32 从上往下打印二叉树|102 二叉树层序遍历||
 
+<!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 <!-- [C++](),[Python]() -->
 <!-- [](https://leetcode-cn.com/problems/) -->
