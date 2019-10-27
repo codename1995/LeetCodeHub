@@ -13,8 +13,8 @@ LeetCode solution (C++ and Python)
 |06 从尾到头打印链表|206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/206_Reverse_Linked_List/Reverse_Linked_List.cpp)|
 |07 重建二叉树| 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)|
 |08 二叉树的下一个节点|510. [Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/510_Inorder_Successor_in_BST_II/Inorder_Successor_in_BST_II.cpp) |
-|09 用两个栈实现队列   |  232 [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) |   |
-| 09_02 用两个队列实现栈   |  232. 用队列实现栈 | lc上的题解给出了用一个队列实现栈的方法，感觉更通俗，也更实用。<u>**两个栈实现队列，一个队列实现栈!!!**</u>  |
+|09 用两个栈实现队列   |  232 [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.cpp)  |
+| 09_02 用两个队列实现栈   |  225 [Implement Stack using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/225_Implement_Stack_using_Queue/Implement_Stack_using_Queue.cpp)<u>**两个栈实现队列，一个队列实现栈!!!**</u>  |
 | 10 斐波那契数列  |509 斐波那契数列   |   |
 | 11 旋转数组中的最小数字  | 153. 寻找旋转排序数组中的最小值  |   |
 | 12 矩阵中的路径  | 79 单词搜索  |   |
