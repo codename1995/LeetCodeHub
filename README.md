@@ -5,7 +5,7 @@ LeetCode solution (C++ and Python)
 1. 《剑指offer》习题(19/68)
 2. Upload solutions for weekly contests
 
-## coding-interviwe (剑指offer)
+## coding-interview (剑指offer)
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
 | 03 数组中重复的数字 | 287 [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/Find_the_Duplicate_Number.cpp) |  
@@ -29,9 +29,9 @@ LeetCode solution (C++ and Python)
 |   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/Remove_Linked_List_Elements.cpp)  |
 | 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/83_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.cpp)  |
 | 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/10_Regular_Expression_Matching/Regular_Expression_Matching.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.RegularExpressionMatching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
-| *20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++],[Python]  |
-| 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [C++],[Python]  |
-| 22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++],[Python] |
+| 20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp)  |
+| 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/905_Sort_Array_by_Parity/Sort_Array_by_Parity.cpp)  |
+| *22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++],[Python] |
 | 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++],[Python]  |
 | 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [C++],[Python]  |
 | 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++],[Python]  |
