@@ -48,7 +48,6 @@ LeetCode solution (C++ and Python)
 |   |   |   |
 |   |   |   |
 |   |   |   |
-|32 从上往下打印二叉树|102 二叉树层序遍历||
 
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 <!-- [C++](),[Python]() -->
