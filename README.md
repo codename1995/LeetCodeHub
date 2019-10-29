@@ -31,11 +31,22 @@ LeetCode solution (C++ and Python)
 | 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/10_Regular_Expression_Matching/Regular_Expression_Matching.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.RegularExpressionMatching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
 | 20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp)  |
 | 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/905_Sort_Array_by_Parity/Sort_Array_by_Parity.cpp)  |
-| *22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/19_Remove_Nth_Node_from_End_of_List/Remove_Nth_Node_from_End_of_List.cpp) |
+| 22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/19_Remove_Nth_Node_from_End_of_List/Remove_Nth_Node_from_End_of_List.cpp) |
 | 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/142_Linked_List_Cycle_II/Linked_List_Cycle_II.cpp)  |
 | 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/206_Reverse_Linked_List/Reverse_Linked_List.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/206.ReverseLinkedList.py)  |
 | 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/21_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.cpp)  |
-| 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++](),[Python]  |
+| *26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++],[Python]  |
+| 27 二叉树的镜像  | 226 [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/)  |   |
+| 28 对称的二叉树  | 101 [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)  |   |
+| 29 顺时针打印矩阵  | 54 [Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)  |   |
+| 30 包含min函数的栈  | 155 [Min Stack](https://leetcode-cn.com/problems/min-stack/)  |   |
+| 31 栈的压入、弹出序列  | 946 [Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences/)  |   |
+| 32 从上往下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)]| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/Binary_Tree_Level_Order_Traversal.cpp)|
+| 33 二叉搜索树的后序遍历序列  |   |   |
+| 34 二叉树中和为某一值的路径  |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 |   |   |   |
 |32 从上往下打印二叉树|102 二叉树层序遍历||
 
