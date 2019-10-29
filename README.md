@@ -34,8 +34,8 @@ LeetCode solution (C++ and Python)
 | *22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/19_Remove_Nth_Node_from_End_of_List/Remove_Nth_Node_from_End_of_List.cpp) |
 | 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/142_Linked_List_Cycle_II/Linked_List_Cycle_II.cpp)  |
 | 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/206_Reverse_Linked_List/Reverse_Linked_List.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/206.ReverseLinkedList.py)  |
-| 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++],[Python]  |
-| 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/21_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.cpp),[Python]  |
+| 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/21_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.cpp)  |
+| 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++](),[Python]  |
 |   |   |   |
 |32 从上往下打印二叉树|102 二叉树层序遍历||
 
