@@ -31,8 +31,8 @@ LeetCode solution (C++ and Python)
 | 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/10_Regular_Expression_Matching/Regular_Expression_Matching.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.RegularExpressionMatching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
 | 20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp)  |
 | 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/905_Sort_Array_by_Parity/Sort_Array_by_Parity.cpp)  |
-| *22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++],[Python] |
-| 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++],[Python]  |
+| 22 链表中倒数第k个节点  |19 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/19_Remove_Nth_Node_from_End_of_List/Remove_Nth_Node_from_End_of_List.cpp) |
+| 23 链表中环的入口节点  |142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/142_Linked_List_Cycle_II/Linked_List_Cycle_II.cpp)  |
 | 24 反转链表  |206 [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [C++],[Python]  |
 | 25 合并两个排序的链表  |21 [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++],[Python]  |
 | 26 树的子结构  | 572 [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [C++],[Python]  |
