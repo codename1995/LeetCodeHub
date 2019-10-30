@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142_Linked_List_Cycle_II", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_Merge_Two_Sorted_Lists", "21_Merge_Two_Sorted_Lists\21_Merge_Two_Sorted_Lists.vcxproj", "{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "102_Binary_Tree_Level_Order_Traversal", "102_Binary_Tree_Level_Order_Traversal\102_Binary_Tree_Level_Order_Traversal.vcxproj", "{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}.Release|x64.Build.0 = Release|x64
 		{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}.Release|x86.ActiveCfg = Release|Win32
 		{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}.Release|x86.Build.0 = Release|Win32
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Debug|x64.ActiveCfg = Debug|x64
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Debug|x64.Build.0 = Debug|x64
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Debug|x86.Build.0 = Debug|Win32
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Release|x64.ActiveCfg = Release|x64
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Release|x64.Build.0 = Release|x64
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Release|x86.ActiveCfg = Release|Win32
+		{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
