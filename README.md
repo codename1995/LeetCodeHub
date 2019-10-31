@@ -13,7 +13,7 @@ LeetCode solution (C++ and Python)
 | 05 [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_05_ReplaceSpace/05_ReplaceSpace.cpp) | 
 | 06 从尾到头打印链表|| 可参考 24. 反转链表|
 |07 重建二叉树| 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)|
-|08 二叉树的下一个节点|510. [Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/510_Inorder_Successor_in_BST_II/Inorder_Successor_in_BST_II.cpp) |
+|08 二叉树的下一个节点|510 [Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/510_Inorder_Successor_in_BST_II/Inorder_Successor_in_BST_II.cpp) |
 |09 用两个栈实现队列   |  232 [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/232_Implement_Queue_using_Stacks/Implement_Queue_using_Stacks.cpp)  |
 | 09_02 用两个队列实现栈   |  225 [Implement Stack using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/225_Implement_Stack_using_Queue/Implement_Stack_using_Queue.cpp)<u>**两个栈实现队列，一个队列实现栈!!!**</u>  |
 | 10 斐波那契数列  |509 [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/)   | [C++]()  |
@@ -22,7 +22,7 @@ LeetCode solution (C++ and Python)
 | 13 机器人的运动范围  |   | 可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
 | 14 剪绳子 | 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/Interger_Break.cpp)  |
 | 15 二进制中1的个数  | 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/Number_of_1_Bits.cpp)  |
-||Advance 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)|
+||(Advanced) 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)|
 | 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/50_Pow/Pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
 | 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  |
@@ -39,16 +39,39 @@ LeetCode solution (C++ and Python)
 | 27 二叉树的镜像  | 226 [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/226_Invert_Binary_Tree/Invert_Binary_Tree.cpp)  |
 | 28 对称的二叉树  | 101 [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/101_Symmetric_Tree/Symmetric_Tree.cpp)  |
 | 29 顺时针打印矩阵  | 54 [Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/54_Spiral_Matrix/Spiral_Matrix.cpp)  |
+| 30 包含min函数的栈  | 155 [Min Stack](https://leetcode-cn.com/problems/min-stack/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/155_Min_Stack/Min_Stack.cpp)  |
+| 31 栈的压入、弹出序列  | 946 [Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/946_Validate_Stack_Sequences/Validate_Stack_Sequences.cpp)  |
+| 32 从上往下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/Binary_Tree_Level_Order_Traversal.cpp)|
+| 32_03 之字形遍历二叉树| 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/Binary_Tree_Zigzag_Level_Order_Traversal.cpp) |
+| 33 二叉搜索树的后序遍历序列  | (Primer) 255 [Verify Preorder Sequence of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/255_Verify_Preorder_Sequence_of_a_Binary_Tree/Verify_Preorder_Sequence_of_a_Binary_Tree.cpp)  |
+| 34 二叉树中和为某一值的路径  | 112 [Path Sum](https://leetcode-cn.com/problems/path-sum/) | [C++]  |
+| 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/) | [C++]  |
+| 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List) 光有思路不行，这题自己写比题解的简洁性差很多 |
+| 37 序列化二叉树  | 297 [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  |   |
+| *38 字符串的排列  |   |   |
+| 39 数组中出现次数超过一半的数字 | 169 [Majority Element](https://leetcode-cn.com/problems/majority-element/submissions/) | [C++] | 
+| | (Advanced) 229 [Majority Element II](https://leetcode-cn.com/problems/majority-element-ii/) |  |
+| 40 最小的k个数| | | 
+| 41 数据流中的中位数 | | | 
+| 42 连续子数组的最大和| | | 
+| 43 1-n整数中1出现的次数| | | 
+| 44 数字序列中某一位的数字| | | 
+| 45 把数组排成最小的数| | | 
+| 46 把数字翻译成字符串|||
+| 47 礼物最大值|||
+| 48 最长不含重复字符的子字符串|||
+| 49 丑数|||
+| 50 第一个只出现一次的字符|||
+| 51 数组中的逆序对|||
+| 52 两个链表的第一个公共节点|||
+| 53 在排序数组中查找数字|||
+| 54 二叉搜索树的第K大节点|||
+| 55 二叉树的深度|||
+| 56 数组中数字出现的次数|||
+| 57 和为S的数字|||
+| 58 翻转字符串|||
+| 59 队列的最大值|||
 
-| *30 包含min函数的栈  | 155 [Min Stack](https://leetcode-cn.com/problems/min-stack/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/  |
-| 31 栈的压入、弹出序列  | 946 [Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/  |
-| 32 从上往下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)]| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/Binary_Tree_Level_Order_Traversal.cpp)|
-| 33 二叉搜索树的后序遍历序列  |   |   |
-| 34 二叉树中和为某一值的路径  |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
 
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 <!-- [C++](),[Python]() -->
