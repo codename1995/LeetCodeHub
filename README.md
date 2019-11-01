@@ -2,7 +2,7 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题(19/68)
+1. 《剑指offer》习题(39/68)
 2. Upload solutions for weekly contests
 
 ## coding-interview (剑指offer)
@@ -44,14 +44,16 @@ LeetCode solution (C++ and Python)
 | 32 从上往下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/Binary_Tree_Level_Order_Traversal.cpp)|
 | 32_03 之字形遍历二叉树| 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/Binary_Tree_Zigzag_Level_Order_Traversal.cpp) |
 | 33 二叉搜索树的后序遍历序列  | (Primer) 255 [Verify Preorder Sequence of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/255_Verify_Preorder_Sequence_of_a_Binary_Tree/Verify_Preorder_Sequence_of_a_Binary_Tree.cpp)  |
-| 34 二叉树中和为某一值的路径  | 112 [Path Sum](https://leetcode-cn.com/problems/path-sum/) | [C++]  |
-| 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/) | [C++]  |
-| 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List) 光有思路不行，这题自己写比题解的简洁性差很多 |
-| 37 序列化二叉树  | 297 [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  |   |
-| *38 字符串的排列  |   |   |
-| 39 数组中出现次数超过一半的数字 | 169 [Majority Element](https://leetcode-cn.com/problems/majority-element/submissions/) | [C++] | 
-| | (Advanced) 229 [Majority Element II](https://leetcode-cn.com/problems/majority-element-ii/) |  |
-| 40 最小的k个数| | | 
+| 34 二叉树中和为某一值的路径  | 112 [Path Sum](https://leetcode-cn.com/problems/path-sum/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/112_Path_Sum/Path_Sum.cpp)  |
+| 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/138_Copy_List_with_Random_Pointer/Copy_List_with_Random_Pointer.cpp)  |
+| 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/426_convert_binary_search_tree_to_sorted_doubly_linked_list/convert_binary_search_tree_to_sorted_doubly_linked_list.cpp) 光有思路不行，这题自己写比题解的简洁性差很多 |
+| 37 序列化二叉树  | 297 [serialize and deserialize binary tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  |   |
+| 38 字符串的排列  | 46 [permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  |   |
+| | 47 [permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | |
+| | 51 [n queens](https://leetcode-cn.com/problems/n-queens/) ||
+| 39 数组中出现次数超过一半的数字 | 169 [majority element (appear over 1/2)](https://leetcode-cn.com/problems/majority-element/submissions/) | [c++](https://github.com/codename1995/leetcodehub/blob/master/cpp/) | 
+| | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
+| *40 最小的k个数| | | 
 | 41 数据流中的中位数 | | | 
 | 42 连续子数组的最大和| | | 
 | 43 1-n整数中1出现的次数| | | 
@@ -65,10 +67,10 @@ LeetCode solution (C++ and Python)
 | 51 数组中的逆序对|||
 | 52 两个链表的第一个公共节点|||
 | 53 在排序数组中查找数字|||
-| 54 二叉搜索树的第K大节点|||
+| 54 二叉搜索树的第k大节点|||
 | 55 二叉树的深度|||
 | 56 数组中数字出现的次数|||
-| 57 和为S的数字|||
+| 57 和为s的数字|||
 | 58 翻转字符串|||
 | 59 队列的最大值|||
 
