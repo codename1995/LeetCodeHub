@@ -47,9 +47,9 @@ LeetCode solution (C++ and Python)
 | 34 二叉树中和为某一值的路径  | 112 [Path Sum](https://leetcode-cn.com/problems/path-sum/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/112_Path_Sum/Path_Sum.cpp)  |
 | 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/138_Copy_List_with_Random_Pointer/Copy_List_with_Random_Pointer.cpp)  |
 | 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List/Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.cpp) 光有思路不行，这题自己写比题解的简洁性差很多 |
-| 37 序列化二叉树  | 297 [serialize and deserialize binary tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  |   |
-| 38 字符串的排列  | 46 [Permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  |   |
-| | 47 [Permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | |
+| 37 序列化二叉树  | 297 [serialize and deserialize binary tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/297_Serialize_and_Deserialize_Binary_Tree/Serialize_and_Deserialize_Binary_Tree.cpp)  |
+| 38 字符串的排列  | 46 [Permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  | [C++]  |
+| | 47 [Permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | [C++] |
 | | 51 [N Queens](https://leetcode-cn.com/problems/n-queens/) ||
 | 39 数组中出现次数超过一半的数字 | 169 [majority element (appear over 1/2)](https://leetcode-cn.com/problems/majority-element/submissions/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/169_Majority_Element/Majority_Element.cpp) | 
 | | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
