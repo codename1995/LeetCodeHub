@@ -7,6 +7,7 @@ using namespace std;
 class Solution {
 public:
 	// 可作为全排列问题标准模板，参考@liweiwei1419 的思路
+	// 思路：DFS+状态重置
 	vector<vector<int>> res; // 记录答案
 	vector<bool> used; 
 	vector<int> _nums;
