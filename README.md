@@ -63,6 +63,7 @@ LeetCode solution (C++ and Python)
 | 47 礼物最大值|||
 | 48 最长不含重复字符的子字符串|||
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/Ugly_Number.cpp)|
+| |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/Ugly_Number_II.cpp)|
 | 50 第一个只出现一次的字符|||
 | 51 数组中的逆序对|||
 | 52 两个链表的第一个公共节点|||
