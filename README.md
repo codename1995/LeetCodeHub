@@ -55,7 +55,7 @@ LeetCode solution (C++ and Python)
 | | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
 | *40 最小的k个数| | | 
 | 41 数据流中的中位数 | | | 
-| 42 连续子数组的最大和| | | 
+| 42 连续子数组的最大和| 53 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/Maximum_Subarray.cpp)|
 | 43 1-n整数中1出现的次数| | | 
 | 44 数字序列中某一位的数字| | | 
 | 45 把数组排成最小的数| | | 
