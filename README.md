@@ -55,7 +55,7 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 39 数组中出现次数超过一半的数字 | 169 [majority element (appear over 1/2)](https://leetcode-cn.com/problems/majority-element/submissions/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/169_Majority_Element/Majority_Element.cpp) | 
 | | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
 | 40 最小的k个数| 215 [Kth Largest Element in an array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/215_Kth_Largest_Element_In_An_Array/Kth_Largest_Element_In_An_Array.cpp) | 
-| 41 数据流中的中位数 | 295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/) | 
+| 41 数据流中的中位数 | 295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/295_Find_Median_From_Data_Stream/Find_Median_From_Data_Stream.cpp) | 
 | 42 连续子数组的最大和| 53 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/Maximum_Subarray.cpp)|
 | *43 1-n整数中1出现的次数| | | 
 | 44 数字序列中某一位的数字| | | 
