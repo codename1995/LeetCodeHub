@@ -2,10 +2,11 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题(39/68)
+1. 《剑指offer》习题(42/68)
 2. Upload solutions for weekly contests
 
 ## coding-interview (剑指offer)
+The link of leetcode problems here is almost based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800) except some supplement.
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
 | 03 数组中重复的数字 | 287 [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/Find_the_Duplicate_Number.cpp) |  
@@ -48,15 +49,15 @@ LeetCode solution (C++ and Python)
 | 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/138_Copy_List_with_Random_Pointer/Copy_List_with_Random_Pointer.cpp)  |
 | 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List/Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.cpp) 光有思路不行，这题自己写比题解的简洁性差很多 |
 | 37 序列化二叉树  | 297 [serialize and deserialize binary tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/297_Serialize_and_Deserialize_Binary_Tree/Serialize_and_Deserialize_Binary_Tree.cpp)  |
-| 38 字符串的排列  | 46 [Permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  | [C++]  |
-| | 47 [Permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | [C++] |
+| 38 字符串的排列  | 46 [Permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/46_Permutations/Permutations.cpp)  |
+| | 47 [Permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/47_Permutations_II/Permutations_II.cpp) |
 | | 51 [N Queens](https://leetcode-cn.com/problems/n-queens/) ||
 | 39 数组中出现次数超过一半的数字 | 169 [majority element (appear over 1/2)](https://leetcode-cn.com/problems/majority-element/submissions/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/169_Majority_Element/Majority_Element.cpp) | 
 | | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
-| *40 最小的k个数| | | 
-| 41 数据流中的中位数 | | | 
+| 40 最小的k个数| 215 [Kth Largest Element in an array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/215_Kth_Largest_Element_In_An_Array/Kth_Largest_Element_In_An_Array.cpp) | 
+| 41 数据流中的中位数 | 295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/) | 
 | 42 连续子数组的最大和| 53 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/Maximum_Subarray.cpp)|
-| 43 1-n整数中1出现的次数| | | 
+| *43 1-n整数中1出现的次数| | | 
 | 44 数字序列中某一位的数字| | | 
 | 45 把数组排成最小的数| | | 
 | 46 把数字翻译成字符串|||

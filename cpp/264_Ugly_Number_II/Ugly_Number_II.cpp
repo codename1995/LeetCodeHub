@@ -10,7 +10,7 @@ public:
 	// 1.最小堆
 	// 由于丑数是2，3，5的倍数，因此不断把它们的倍数压入最小堆中。
 	// 可用C++的最小优先队列实现。
-	// priority_queue<deque<int>, greater<int> > pq; (默认最大优先，因此要写greater
+	// priority_queue<int, deque<int>, greater<int> > pq; (默认最大优先，因此要写greater
 	// 2. DP
 	// 一句话的思路：dp[k] = min(dp[idx_2], dp[idx_3], dp[idx_5])
 	//     为什么是一个DP问题，因为大于1的丑数一定是2、3、5的积，因此
