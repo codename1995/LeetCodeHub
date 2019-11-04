@@ -7,6 +7,7 @@ LeetCode solution (C++ and Python)
 
 ## coding-interview (剑指offer)
 The link of leetcode problems here is almost based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800) except some supplement.
+
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
 | 03 数组中重复的数字 | 287 [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/Find_the_Duplicate_Number.cpp) |  
