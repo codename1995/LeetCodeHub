@@ -9,6 +9,7 @@ class Solution {
 public:
 	int countDigitOne(int n) {
 		// @Leetcode
+		// https://leetcode-cn.com/problems/number-of-digit-one/solution/shu-zi-1-de-ge-shu-by-leetcode/
 
 		int cnt = 0;
 		for (long long i = 1; i <= n; i *= 10) {
