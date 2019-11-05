@@ -60,8 +60,8 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 42 连续子数组的最大和| 53 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/Maximum_Subarray.cpp)|
 | 43 1-n整数中1出现的次数| 233 [Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/233_Number_of_Digit_One/Number_of_Digit_One.cpp) | 
 | *44 数字序列中某一位的数字|400 [Nth Digit](https://leetcode-cn.com/problems/nth-digit/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/400_Nth_digit/Nth_digit.cpp) | 
-| 45 把数组排成最小的数| | | 
-| 46 把数字翻译成字符串|||
+| 45 把数组排成最小的数| 179 [Largest Number](https://leetcode-cn.com/problems/largest-number/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/179_Largest_Number/Largest_Number.cpp), [Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/179.LargestNumber.py)| 
+| 46 把数字翻译成字符串| 91 [Decode Ways](https://leetcode-cn.com/problems/decode-ways/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/91_Decode_Ways/Decode_Ways.cpp) |
 | 47 礼物最大值|||
 | 48 最长不含重复字符的子字符串|||
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/Ugly_Number.cpp)|
