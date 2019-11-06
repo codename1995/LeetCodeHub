@@ -68,7 +68,8 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 ||340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/159_Longest_Substring_With_At_Most_Two_Distinct_Characters/Longest_Substring_With_At_Most_Two_Distinct_Characters.cpp)|
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/Ugly_Number.cpp)|
 | |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/Ugly_Number_II.cpp)|
-| 50 第一个只出现一次的字符|||
+| 50 第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++]() |
+|50_02 字符流中第一个只出现一次的字符|||
 | 51 数组中的逆序对|||
 | 52 两个链表的第一个公共节点|||
 | 53 在排序数组中查找数字|||
