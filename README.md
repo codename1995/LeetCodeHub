@@ -69,7 +69,7 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/Ugly_Number.cpp)|
 | |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/Ugly_Number_II.cpp)|
 | 50 第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++]() |
-|50_02 字符流中第一个只出现一次的字符|||
+|50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
 | 51 数组中的逆序对|||
 | 52 两个链表的第一个公共节点|||
 | 53 在排序数组中查找数字|||
