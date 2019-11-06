@@ -17,16 +17,16 @@ public:
 		{
 			prv2 = prv1;
 			prv1 = cur;
-			if (s[i] == '0')
+			if (s[i] == '0') // 10,20
 			{
 				if (s[i - 1] == '1' || s[i - 1] == '2') cur = prv2;
 				else return 0;
 			}
 			else
 			{
-				if (s[i - 1] == '1' || s[i - 1] == '2' && s[i] >= '1' && s[i] <= '6') //11-19,21-26
+				if (s[i - 1] == '1' || s[i - 1] == '2' && s[i] >= '1' && s[i] <= '6') // 11-19,21-26
 					cur = prv2 + prv1;
-				else cur = prv1; //1-9
+				else cur = prv1; // 1-9
 			}
 		}
 		return cur;
