@@ -3,7 +3,7 @@ LeetCode solution (C++ and Python)
 
 ## TODO
 1. 《剑指offer》习题(42/68)
-2. Upload solutions for weekly contests
+2. 按Tag整理习题
 
 ## coding-interview (剑指offer)
 The link of leetcode problems here is almost based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800) except some supplement.
@@ -63,7 +63,9 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 45 把数组排成最小的数| 179 [Largest Number](https://leetcode-cn.com/problems/largest-number/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/179_Largest_Number/Largest_Number.cpp), [Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/179.LargestNumber.py)| 
 | 46 把数字翻译成字符串| 91 [Decode Ways](https://leetcode-cn.com/problems/decode-ways/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/91_Decode_Ways/Decode_Ways.cpp) |
 | 47 礼物最大值|||git 
-| 48 最长不含重复字符的子字符串|||
+| 48 最长不含重复字符的子字符串|3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/3_Longest_Substring_Without_Repeating_Characters/Longest_Substring_Without_Repeating_Characters.cpp) |
+||159 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)| 直接套用340代码，将输入参数k改为默认2即可 |
+||340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/159_Longest_Substring_With_At_Most_Two_Distinct_Characters/Longest_Substring_With_At_Most_Two_Distinct_Characters.cpp)|
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/Ugly_Number.cpp)|
 | |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/Ugly_Number_II.cpp)|
 | 50 第一个只出现一次的字符|||
