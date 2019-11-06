@@ -1,16 +1,17 @@
-# 
+# Abstract
+A summary for problems with different tag.
 
 [TOC]
 
-## Math
+# Math
 
-## Data Structure
+# Data Structure
 
-## Method
-### DP
+# Method
+## DP
 
-### Sliding windows
-#### Template
+## Sliding windows
+### Template
 
 ```C++
 /* Sliding Windows Template
@@ -31,7 +32,7 @@ for (;r<s.size();r++){
         l++
 }
 ```
-#### Problems
+### Problems
 3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
 
