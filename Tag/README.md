@@ -41,8 +41,8 @@ for (int i=0;i!=s.size();i++){
 ```
 
 #### Problems
-387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
-1218 [Longest Arithemetic Subsequence of Given Difference ](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/) (A Special Hast Table)
+387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) 
+1218 [Longest Arithemetic Subsequence of Given Difference ](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/) (A Special Hast Table) 
 
 ## Sliding windows
 #### Template
@@ -66,7 +66,7 @@ for (;r<s.size();r++){
 }
 ```
 #### Problems
-3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
+340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) 
 
 
