@@ -72,7 +72,7 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 |50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
 | 51 数组中的逆序对|||
 || (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)||
-||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|~~[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp)~~|
+||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp)|
 | 52 两个链表的第一个公共节点|||
 | 53 在排序数组中查找数字|||
 | 54 二叉搜索树的第k大节点|||

@@ -4,8 +4,36 @@ A summary for problems with different tag.
 [TOC]
 
 # Math
-
+TBC
 # Data Structure
+TBC
+# Sort
+## Classical Sort Algorithms
+### MERGE-SORT
+#### Pseudo-code
+```Python
+# Adapted from "Introduction to Algorithms"
+def Merge_Sort(A, l, r):
+    if (l<r):
+        m = (l+r)//2
+        Merge_Sort(A,l,m)
+        Merge_Sort(A,m+1,r)
+        Merge(A, l, m, r)
+def Merge(A, l, m, r):
+    # Procedure:
+    # 1. Copy the left and right part of array A to two new array
+    # 2. Merge two array to A one by one.
+    L = A[l..m]
+    L.append(float("INF"))
+    R = A[m+1..r]
+    R.append(float("INF"))
+    i = j = 1
+    for k = l to r:
+        if L[i] <= R[j]:
+            A[k] = L[i++]
+        else
+            A[k] = R[j++]
+```
 
 # Method
 ## DP
@@ -41,7 +69,7 @@ for (int i=0;i!=s.size();i++){
 ```
 
 #### Problems
-387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) 
+387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)  
 1218 [Longest Arithemetic Subsequence of Given Difference ](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/) (A Special Hast Table) 
 
 ## Sliding windows
@@ -66,7 +94,7 @@ for (;r<s.size();r++){
 }
 ```
 #### Problems
-3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
+3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  
 340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) 
 
 
