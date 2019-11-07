@@ -71,10 +71,10 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 50 第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/387_First_Unique_Character_in_A_String/First_Unique_Character_in_A_String.cpp) |
 |50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
 | 51 数组中的逆序对|||
-|| (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)||
+|| (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/493_Reverse_Pairs/Reverse_Pairs.cpp)|
 ||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp)|
-| 52 两个链表的第一个公共节点|||
-| 53 在排序数组中查找数字|||
+| 52 两个链表的第一个公共节点|160 [Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/160_Intersection_Of_Two_Linked_Lists/Intersection_Of_Two_Linked_Lists.cpp)|
+| 53 在排序数组中查找数字| 34 [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array/Find_First_And_Last_Position_Of_Element_In_Sorted_Array.cpp)|
 | 54 二叉搜索树的第k大节点|||
 | 55 二叉树的深度|||
 | 56 数组中数字出现的次数|||
