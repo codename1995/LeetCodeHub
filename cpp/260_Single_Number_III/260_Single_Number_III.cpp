@@ -1,20 +1,40 @@
-﻿// 260_Single_Number_III.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿#include<vector>
+#include<algorithm>
 
-#include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
-// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
-
-// 入门使用技巧: 
-//   1. 使用解决方案资源管理器窗口添加/管理文件
-//   2. 使用团队资源管理器窗口连接到源代码管理
-//   3. 使用输出窗口查看生成输出和其他消息
-//   4. 使用错误列表窗口查看错误
-//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
-//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
+class Solution {
+public:
+	int singleNumberCore(vector<int>& nums, int l, int r)
+	{
+		// copy from solution for 136
+		// this function xor every single number in "nums", and return the xor result.
+		int bits = 0;
+		for (auto n : nums)
+			bits ^= n;
+		return bits;
+	}
+	vector<int> singleNumber(vector<int>& nums) {
+		// THE SOLUTION IS AWEEEEEEEEEESOME!
+		// 1. xor every single number, then we get a special number which is the xor result (denote as X) of the two unique number (A and B)
+		// 2. since A and B are not same, X must not be zeros, each bit 1 means A and B are not same on this bit
+		//    so, we split the whole array according to the first bit in X
+		// 3. now we get two subarray, each of which contains only one unique number while other numbers must appear twice
+		// Again, AWEEEESOME!
+		int x = singleNumberCore(nums, 0, nums.size() - 1);
+		int bit_k = 1;
+		while (true)
+		{
+			if (x & bit_k) break;
+			else {
+				bit_k = bit_k << 1;
+			}
+		}
+		int a = 0, b = 0;
+		for (auto n : nums) {
+			if (n & bit_k) a ^= n;
+			else b ^= n;
+		}
+		return { a,b };
+	}
+};
