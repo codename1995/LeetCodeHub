@@ -37,7 +37,8 @@ public:
 			//// 出现次数			1	2	3
 			//// ones ^ n			1	0	1
 			//// ~twos				1	1	0
-			//// (ones ^ n) & ~twos	1	0	0	符合实际		}
+			//// (ones ^ n) & ~twos	1	0	0	符合实际		
+		}
 		return ones;
 
 	}
