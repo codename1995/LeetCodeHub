@@ -6,7 +6,46 @@ A summary for problems with different tag.
 # Math
 TBC
 # Data Structure
-TBC
+## Tree
+### Binary Search Tree
+#### Inorder
+```C++
+// Print the INORDER of a BST in a vector
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+vector<int> inorder(TreeNode* root){
+    vector<int> nums;
+
+    if (!root) return nums;
+
+    stack<TreeNode*> s;
+    while (!s.epmty() || root!=nullptr)
+    {
+        if (root!=nullptr)
+        {
+            s.push(root);
+            root=root->left;
+        }
+        else
+        {
+            TreeNode* top = s.top();
+            s.pop();
+            nums.push_back(top->val);
+            root=top->right;
+        }
+    }
+    return nums;
+}
+
+```
 # Sort
 ## Classical Sort Algorithms
 ### MERGE-SORT
@@ -34,7 +73,8 @@ def Merge(A, l, m, r):
         else
             A[k] = R[j++]
 ```
-
+#### Problems
+H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)
 # Method
 ## DP
 
