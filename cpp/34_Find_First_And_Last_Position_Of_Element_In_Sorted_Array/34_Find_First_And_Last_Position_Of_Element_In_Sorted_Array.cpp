@@ -5,33 +5,33 @@
 
 using namespace std;
 
-int lower_bound(vector<int>& nums, int target)
-{
-	int low = 0, high = nums.size();
-	while (low < high)
-	{
-		int mid = low + (high - low >> 1);
-		if (nums[mid] < target)
-			low = mid + 1;
-		else
-			high = mid;
-	}
-	return low;
-}
-
-int upper_bound(vector<int>& nums, int target)
-{
-	int low = 0, high = nums.size();
-	while (low < high)
-	{
-		int mid = low + (high - low >> 1);
-		if (nums[mid] <= target) //其实就一个等号的区别
-			low = mid + 1;
-		else
-			high = mid;
-	}
-	return low;
-}
+//int lower_bound(vector<int>& nums, int target)
+//{
+//	int low = 0, high = nums.size();
+//	while (low < high)
+//	{
+//		int mid = low + (high - low >> 1);
+//		if (nums[mid] < target)
+//			low = mid + 1;
+//		else
+//			high = mid;
+//	}
+//	return low;
+//}
+//
+//int upper_bound(vector<int>& nums, int target)
+//{
+//	int low = 0, high = nums.size();
+//	while (low < high)
+//	{
+//		int mid = low + (high - low >> 1);
+//		if (nums[mid] <= target) //其实就一个等号的区别
+//			low = mid + 1;
+//		else
+//			high = mid;
+//	}
+//	return low;
+//}
 
 class Solution {
 public:
