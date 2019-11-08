@@ -2,7 +2,7 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题(42/68)
+1. 《剑指offer》习题(56/68)
 2. 按Tag整理习题
 
 ## coding-interview (剑指offer)
@@ -80,10 +80,18 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 56_00 56题的前置 数组中只出现1次的那个数字| 136 [Single Number](https://leetcode-cn.com/problems/single-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/136_Single_Number/136_Single_Number.cpp)  XOR for every single number|
 | 56_01 数组中只出现1次的2个数字 |260 [Single Number III](https://leetcode-cn.com/problems/single-number-iii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Single_Number_III/230_Single_Number_III.cpp) 1. XOR. 2. Split to two subarray.  3. XOR for two subarray, resepctively.
 | 56_02 其他数字都出现三次的数字中唯一只出现一次的数字 | 137 [Single Number II](https://leetcode-cn.com/problems/single-number-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/137_Single_Number_II/137_Single_Number_II.cpp) SUM all and mod 3 for every single bit|
-| 57 和为s的数字|||
+| *57 和为s的数字|1 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/Two_Sum.cpp) |
 | 58 翻转字符串|||
 | 59 队列的最大值|||
-
+| 60 n个骰子的点数|||
+| 61 扑克牌中的顺子|||
+| 62 圆圈中最后剩下的数字|||
+| 63 股票的最大利润|||
+| 64 求1+2+..+n|||
+| 65 不用加减乘除做加法|||
+| 66 构建乘积数组|||
+| 67 把字符串转换成整数|||
+| 68 树中两个节点的最低公共祖先|||
 
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 <!-- [C++](),[Python]() -->
