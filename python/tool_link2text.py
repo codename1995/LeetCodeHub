@@ -13,7 +13,7 @@
 #   230_Kth_Smallest_Element_In_A_Bst
 #
 
-idx = input("Please input the No. of problem:")
+idx = eval(input("Please input the No. of problem:"))
 hyperlink = input("Please input the hyperlink:")
 # idx = 230
 # hyperlink = "https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/"
