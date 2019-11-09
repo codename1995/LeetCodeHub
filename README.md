@@ -95,7 +95,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | *62 圆圈中最后剩下的数字|没找到||
 | 63 股票的最大利润|121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) |
 | 64 求1+2+..+n||[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/coding_interview_64_Accumulate/coding_interview_64_Accumulate.cpp) 照着敲了一下第一种方法；补充了一种利用逻辑断路来做的方法。|
-| 65 不用加减乘除做加法|||
+| 65 不用加减乘除做加法||[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/coding_interview_64_Add/coding_interview_64_Add.cpp) |
 | 66 构建乘积数组|||
 | 67 把字符串转换成整数|||
 | 68 树中两个节点的最低公共祖先|||
