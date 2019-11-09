@@ -84,8 +84,8 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 57_02 和为s的连续正数序列|829 [Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/829_Consecutive_Numbers_Sum/829_Consecutive_Numbers_Sum.cpp) |
 | 58 翻转字符串|||
 | 59_01 滑动窗口的最大值 | 239 [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/239_Sliding_Window_Maximum/239_Sliding_Window_Maximum.cpp) |
-| 59 队列的最大值|||
-| 60 n个骰子的点数|||
+| 59 队列的最大值||没找到|
+| 60 n个骰子的点数|1155 [Number Of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1155_Number_Of_Dice_Rolls_With_Target_Sum/1155_Number_Of_Dice_Rolls_With_Target_Sum.cpp)|
 | 61 扑克牌中的顺子|||
 | 62 圆圈中最后剩下的数字|||
 | 63 股票的最大利润|||
