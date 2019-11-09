@@ -84,14 +84,15 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 56_00 56题的前置 数组中只出现1次的那个数字| 136 [Single Number](https://leetcode-cn.com/problems/single-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/136_Single_Number/136_Single_Number.cpp)  XOR for every single number|
 | 56_01 数组中只出现1次的2个数字 |260 [Single Number III](https://leetcode-cn.com/problems/single-number-iii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Single_Number_III/230_Single_Number_III.cpp) 1. XOR. 2. Split to two subarray.  3. XOR for two subarray, resepctively.
 | 56_02 其他数字都出现三次的数字中唯一只出现一次的数字 | 137 [Single Number II](https://leetcode-cn.com/problems/single-number-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/137_Single_Number_II/137_Single_Number_II.cpp) SUM all and mod 3 for every single bit|
-| *57 和为s的数字|1 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/1_Two_Sum.cpp) |
+| 57 和为s的数字|1 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/1_Two_Sum.cpp) |
 | 57_02 和为s的连续正数序列|829 [Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/829_Consecutive_Numbers_Sum/829_Consecutive_Numbers_Sum.cpp) |
-| 58 翻转字符串|||
+| 58_01 翻转单词顺序| 151 [Reverse Words In A String](https://leetcode-cn.com/problems/reverse-words-in-a-string/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/151_Reverse_Words_In_A_String/151_Reverse_Words_In_A_String.cpp) |
+| 58_02 左旋转字符串|189 [Rotate Array](https://leetcode-cn.com/problems/rotate-array/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/189_Rotate_Array/189_Rotate_Array.cpp)  |
 | 59_01 滑动窗口的最大值 | 239 [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/239_Sliding_Window_Maximum/239_Sliding_Window_Maximum.cpp) |
 | 59 队列的最大值|没找到||
 | 60 n个骰子的点数|1155 [Number Of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1155_Number_Of_Dice_Rolls_With_Target_Sum/1155_Number_Of_Dice_Rolls_With_Target_Sum.cpp)|
 | 61 扑克牌中的顺子||模拟法，注意细节即可 ~~(其实还是因为没找到)~~|
-| 62 圆圈中最后剩下的数字|||
+| *62 圆圈中最后剩下的数字|||
 | 63 股票的最大利润|121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) |
 | 64 求1+2+..+n|||
 | 65 不用加减乘除做加法|||
