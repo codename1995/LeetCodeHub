@@ -2,16 +2,20 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题(56/68)
+1. 《剑指offer》习题一刷(60/68)
+   * 十分钟思考
+   * 想不出来直接看解答，然后自己实现
 2. 按Tag整理习题
+   * 对常用的数据结构、方法、套路进行整理
 
-## coding-interview (剑指offer)
-The link of leetcode problems here is almost based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800) except some supplement.
+## Sort by coding-interview (剑指offer)
+这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。
+Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800).
 
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
-| 03 数组中重复的数字 | 287 [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/Find_the_Duplicate_Number.cpp) |  
-| 04 二维数组中的查找 | 240 [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/Search_a_2D_Matrix_II.cpp)  |  
+| 03 数组中重复的数字 | 287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/Find_the_Duplicate_Number.cpp) |  
+| 04 二维数组中的查找 | 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/Search_a_2D_Matrix_II.cpp)  |  
 | 05 [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_05_ReplaceSpace/05_ReplaceSpace.cpp) | 
 | 06 从尾到头打印链表|| 可参考 24. 反转链表|
 |07 重建二叉树| 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)|
@@ -88,7 +92,7 @@ The link of leetcode problems here is almost based on @yanring's [REPO](https://
 | 60 n个骰子的点数|1155 [Number Of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1155_Number_Of_Dice_Rolls_With_Target_Sum/1155_Number_Of_Dice_Rolls_With_Target_Sum.cpp)|
 | 61 扑克牌中的顺子|||
 | 62 圆圈中最后剩下的数字|||
-| 63 股票的最大利润|||
+| 63 股票的最大利润|121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) |
 | 64 求1+2+..+n|||
 | 65 不用加减乘除做加法|||
 | 66 构建乘积数组|||
