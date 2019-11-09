@@ -74,9 +74,9 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/Ugly_Number_II.cpp)|
 | 50 第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/387_First_Unique_Character_in_A_String/First_Unique_Character_in_A_String.cpp) |
 |50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
-| 51 数组中的逆序对|||
-|| (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/493_Reverse_Pairs/Reverse_Pairs.cpp)|
-||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp)|
+| 51 求数组中的逆序对的总数||与LC493思路基本一致|
+|| (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/493_Reverse_Pairs/Reverse_Pairs.cpp) |
+||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|[C++] <!--(https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp) -->|
 | 52 两个链表的第一个公共节点|160 [Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/160_Intersection_Of_Two_Linked_Lists/Intersection_Of_Two_Linked_Lists.cpp)|
 | 53 在排序数组中查找数字| 34 [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.cpp )|
 | 54 二叉搜索树的第k大节点|230 [Kth Smallest Element In A Bst](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Kth_Smallest_Element_In_A_Bst/230_Kth_Smallest_Element_In_A_Bst.cpp) |
@@ -88,9 +88,9 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 57_02 和为s的连续正数序列|829 [Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/829_Consecutive_Numbers_Sum/829_Consecutive_Numbers_Sum.cpp) |
 | 58 翻转字符串|||
 | 59_01 滑动窗口的最大值 | 239 [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/239_Sliding_Window_Maximum/239_Sliding_Window_Maximum.cpp) |
-| 59 队列的最大值||没找到|
+| 59 队列的最大值|没找到||
 | 60 n个骰子的点数|1155 [Number Of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1155_Number_Of_Dice_Rolls_With_Target_Sum/1155_Number_Of_Dice_Rolls_With_Target_Sum.cpp)|
-| 61 扑克牌中的顺子|||
+| 61 扑克牌中的顺子||模拟法，注意细节即可 ~~(其实还是因为没找到)~~|
 | 62 圆圈中最后剩下的数字|||
 | 63 股票的最大利润|121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) |
 | 64 求1+2+..+n|||
