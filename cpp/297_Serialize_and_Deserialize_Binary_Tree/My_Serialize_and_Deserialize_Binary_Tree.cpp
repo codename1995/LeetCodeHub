@@ -2,16 +2,10 @@
 #include<cstring>
 #include<iostream>
 #include<queue>
+#include"TreeNode_LC.h"
 
 using namespace std;
 
-struct TreeNode {
-	int val;
-	TreeNode* left;
-	TreeNode* right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	
-};
 
 /**
  * Definition for a binary tree node.
@@ -22,7 +16,7 @@ struct TreeNode {
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Codec {
+class Codec2 {
 public:
 	// 第47个case没通过。要注意不能用string类型的一个位来表示值，因为值是int型，可能超过一个字符的范围。
 	// Case 48是一个仅有右子树的有1000个节点的case，很容易超内存
@@ -117,13 +111,13 @@ public:
 
  // ============= Module Test ==============
 
-bool sameTree(TreeNode* a, TreeNode* b)
+bool sameTree2(TreeNode* a, TreeNode* b)
 {
 	if (!a && !b) return true;
 	if (!a || !b) return false;
 	return (a->val == b->val) &&
-		sameTree(a->left, b->left) &&
-		sameTree(a->right, b->right);
+		sameTree2(a->left, b->left) &&
+		sameTree2(a->right, b->right);
 }
 
 void main_2()
@@ -148,12 +142,12 @@ void main_2()
 
 
 
-	Codec codec;
+	Codec2 codec;
 	string s;
 	s = codec.serialize(root);
 	codec.printString(s);
 	TreeNode* decodedTree = codec.deserialize(s);
-	if (sameTree(root, decodedTree))
+	if (sameTree2(root, decodedTree))
 		cout << "Right" << endl;
 	else
 		cout << "Wrong" << endl;
