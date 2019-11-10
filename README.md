@@ -2,7 +2,7 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题一刷(63/68)
+1. 《剑指offer》习题一刷(66/68)
    * 十分钟思考
    * 想不出来直接看解答，然后自己实现
 2. 按Tag整理习题
@@ -92,11 +92,11 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 59_02 队列的最大值|没找到||
 | 60 n个骰子的点数|1155 [Number Of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1155_Number_Of_Dice_Rolls_With_Target_Sum/1155_Number_Of_Dice_Rolls_With_Target_Sum.cpp)|
 | 61 扑克牌中的顺子||模拟法，注意细节即可 ~~(其实还是因为没找到)~~|
-| *62 圆圈中最后剩下的数字|没找到||
+| 62 圆圈中最后剩下的数字|没找到||
 | 63 股票的最大利润|121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) |
 | 64 求1+2+..+n||[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/coding_interview_64_Accumulate/coding_interview_64_Accumulate.cpp) 照着敲了一下第一种方法；补充了一种利用逻辑断路来做的方法。|
-| 65 不用加减乘除做加法||[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/coding_interview_64_Add/coding_interview_64_Add.cpp) |
-| 66 构建乘积数组|||
+| 65 不用加减乘除做加法||[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/coding_interview_65_Add/coding_interview_65_Add.cpp) |
+| *66 构建乘积数组|||
 | 67 把字符串转换成整数|||
 | 68 树中两个节点的最低公共祖先|||
 
