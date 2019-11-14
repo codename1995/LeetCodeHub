@@ -1,31 +1,30 @@
-# LeetCodeHub
+LeetCodeHub
+===========================
 LeetCode solution (C++ and Python)
 
-## 目录
 - [LeetCodeHub](#leetcodehub)
-  - [目录](#%e7%9b%ae%e5%bd%95)
-  - [TODO](#todo)
-  - [Leetcode Hot & Top](#leetcode-hot--top)
-  - [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
-  - [Tag](#tag)
+- [TODO](#todo)
+- [Leetcode Hot & Top](#leetcode-hot--top)
+- [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
+- [Tag](#tag)
 
-## TODO
+# TODO
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
    * 十分钟思考
    * 想不出来直接看解答，然后自己实现
-2. 按Tag整理习题
+1. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-3. 《剑指offer》二刷
+2. 《剑指offer》二刷
    * 注重一题多刷，多题一解
    * 一遍过的就不用在意
-4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (1/144/245) (上传/完成/总数)
+3. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (1/144/245) (上传/完成/总数)
  
-## Leetcode Hot & Top
+# Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
 | ---       | ---       |  ---         |
 | 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 
-## Sort by coding-interview (剑指offer)
+# Sort by coding-interview (剑指offer)
 这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。 
 Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800).
 
@@ -117,7 +116,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 67 把字符串转换成整数|||
 | 68 树中两个节点的最低公共祖先|||
 
-## Tag
+# Tag
 按Tag整理常见解题思路。存放在[这里](https://github.com/codename1995/LeetCodeHub/tree/master/Tag)
 以VS Code + Markdown Perview Enhanced 打开会更好。
 
