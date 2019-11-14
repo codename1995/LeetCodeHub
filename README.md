@@ -12,12 +12,12 @@ LeetCode solution (C++ and Python)
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
    * 十分钟思考
    * 想不出来直接看解答，然后自己实现
-1. 按Tag整理习题
+* [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-2. 《剑指offer》二刷
+* [ ] 3. 《剑指offer》二刷
    * 注重一题多刷，多题一解
    * 一遍过的就不用在意
-3. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (1/144/245) (上传/完成/总数)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (1/144/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
