@@ -1,6 +1,14 @@
 # LeetCodeHub
 LeetCode solution (C++ and Python)
 
+## 目录
+- [LeetCodeHub](#leetcodehub)
+  - [目录](#%e7%9b%ae%e5%bd%95)
+  - [TODO](#todo)
+  - [Leetcode Hot & Top](#leetcode-hot--top)
+  - [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
+  - [Tag](#tag)
+
 ## TODO
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
    * 十分钟思考
@@ -108,6 +116,10 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | *66 构建乘积数组|||
 | 67 把字符串转换成整数|||
 | 68 树中两个节点的最低公共祖先|||
+
+## Tag
+按Tag整理常见解题思路。存放在[这里](https://github.com/codename1995/LeetCodeHub/tree/master/Tag)
+以VS Code + Markdown Perview Enhanced 打开会更好。
 
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
 <!-- [C++](),[Python]() -->
