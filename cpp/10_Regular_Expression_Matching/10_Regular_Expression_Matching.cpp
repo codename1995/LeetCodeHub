@@ -1,16 +1,33 @@
 #include<vector>
 #include<string>
+#include<iostream>
 
 using namespace std;
+
 class Solution {
 public:
+	void printMatrix(vector<vector<bool>> v) {
+		int nr = v.size();
+		int nc = v[0].size();
+		cout << "  ";
+		for (int j = 0; j < nc; j++)
+			cout << j;
+		cout << endl;
+		for (int i = 0; i < nr; i++) {
+			cout << i << " ";
+			for (int j = 0; j < nc; j++) cout << v[i][j];
+			cout << endl;
+		}
+		cout << endl;
+	}
 	bool isMatch(string s, string p) {
 		vector<vector<bool>> dp(s.size() + 1, vector<bool>(p.size() + 1, false));
 		// dp[i][j] denotes s[i:] match p[j:]
 
 		dp.back().back() = true;
-		for (int i = s.size(); i != -1; i--) {
-			for (int j = p.size() - 1; j != -1; j--) {
+		for (int i = s.size(); i != -1; --i) {
+			for (int j = p.size() - 1; j != -1; --j) {
+				printMatrix(dp);
 				bool first_match = i<s.size() && (s[i] == p[j] || p[j] == '.');
 				if (j+1<p.size() && p[j + 1] == '*')
 					dp[i][j] = dp[i][j + 2] || (first_match && dp[i + 1][j]);
@@ -24,6 +41,17 @@ public:
 };
 
 // ====================Test Module====================
+void PrintArray(vector<int> numbers, int length)
+{
+	if (length < 0)
+		return;
+
+	for (int i = 0; i < length; ++i)
+		printf("%d\t", numbers[i]);
+
+	printf("\n");
+}
+
 // Following code adapted from https://github.com/zhedahht/CodingInterviewChinese2/
 void Test(const char* testName, const char* str, const char* pattern, bool expected)
 {
@@ -71,6 +99,7 @@ int main(int argc, char* argv[])
 	Test("Test28", "aaba", "ab*a*c*a", false);
 	Test("Test29", "bbbba", ".*a*a", true);
 	Test("Test30", "bcbbabab", ".*a*a", false);
+	Test("Test31", "mississippi", "mis*is*p*.", true);
 
 	return 0;
 }
