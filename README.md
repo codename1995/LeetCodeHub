@@ -25,7 +25,7 @@ LeetCode solution (C++ and Python)
 | 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 
 # Sort by coding-interview (剑指offer)
-这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。 
+这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。  
 Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/yanring/fd7c494616f99052d1fea3bc788cc800).
 
 | 剑指offer | Leetcode | Solution |  
@@ -117,7 +117,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 68 树中两个节点的最低公共祖先|||
 
 # Tag
-按Tag整理常见解题思路。存放在[这里](https://github.com/codename1995/LeetCodeHub/tree/master/Tag)
+按Tag整理常见解题思路。存放在[这里](https://github.com/codename1995/LeetCodeHub/tree/master/Tag)  
 以VS Code + Markdown Perview Enhanced 打开会更好。
 
 <!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
