@@ -2,11 +2,20 @@
 LeetCode solution (C++ and Python)
 
 ## TODO
-1. 《剑指offer》习题一刷(66/68)
+* [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
    * 十分钟思考
    * 想不出来直接看解答，然后自己实现
 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
+3. 《剑指offer》二刷
+   * 注重一题多刷，多题一解
+   * 一遍过的就不用在意
+4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (0/144/245) (上传/完成/总数)
+ 
+## Leetcode Hot & Top
+| Leetcode  | Solution  | Basic idea   |
+| ---       | ---       |  ---         |
+| 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 
 
 ## Sort by coding-interview (剑指offer)
 这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。
