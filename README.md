@@ -1,8 +1,8 @@
-LeetCodeHub{ignore=true}
+LeetCodeHub
 ===========================
 LeetCode solution (C++ and Python)
 
-- [LeetCodeHub{ignore=true}](#leetcodehubignoretrue)
+- [LeetCodeHub](#leetcodehub)
 - [TODO](#todo)
 - [Leetcode Hot & Top](#leetcode-hot--top)
 - [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
@@ -18,8 +18,8 @@ LeetCode solution (C++ and Python)
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
 | ---       | ---       |  ---         |
-| 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
+| 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 
 # Sort by coding-interview (剑指offer)
 这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。  
