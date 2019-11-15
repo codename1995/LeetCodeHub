@@ -24,7 +24,8 @@ LeetCode solution (C++ and Python)
 064 [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/64_Minimum_Path_Sum/64_Minimum_Path_Sum.cpp) | 1. DP|
 070 [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/70_Climbing_Stairs/70_Climbing_Stairs.cpp) | 1. DP|
 121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) | 1. DP|
-322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Top-down)|
+300 [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.cpp) | 1. DP O(n^2) <br> 2. DP + Binary Searcy O(nlogn)|
+322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Bottom-Up)|
 | 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 
 # Sort by coding-interview (剑指offer)
