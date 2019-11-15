@@ -18,7 +18,13 @@ LeetCode solution (C++ and Python)
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
 | ---       | ---       |  ---         |
-| 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
+005 [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/5_Longest_Palindromic_Substring/5_Longest_Palindromic_Substring.cpp) | 1. 中心扩展
+010 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
+053 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/53_Maximum_Subarray.cpp)| 1. DP |
+064 [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/64_Minimum_Path_Sum/64_Minimum_Path_Sum.cpp) | 1. DP|
+070 [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/70_Climbing_Stairs/70_Climbing_Stairs.cpp) | 1. DP|
+121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) | 1. DP|
+322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Top-down)|
 | 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 
 # Sort by coding-interview (剑指offer)
@@ -76,7 +82,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 41 数据流中的中位数 | 295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/295_Find_Median_From_Data_Stream/295_Find_Median_From_Data_Stream.cpp) | 
 | 42 连续子数组的最大和| 53 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/53_Maximum_Subarray.cpp)|
 | 43 1-n整数中1出现的次数| 233 [Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/233_Number_of_Digit_One/233_Number_of_Digit_One.cpp) | 
-| *44 数字序列中某一位的数字|400 [Nth Digit](https://leetcode-cn.com/problems/nth-digit/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/400_Nth_Digit/400_Nth_Digit.cpp) | 
+| 44 数字序列中某一位的数字|400 [Nth Digit](https://leetcode-cn.com/problems/nth-digit/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/400_Nth_Digit/400_Nth_Digit.cpp) | 
 | 45 把数组排成最小的数| 179 [Largest Number](https://leetcode-cn.com/problems/largest-number/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/179_Largest_Number/179_Largest_Number.cpp), [Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/179.LargestNumber.py)| 
 | 46 把数字翻译成字符串| 91 [Decode Ways](https://leetcode-cn.com/problems/decode-ways/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/91_Decode_Ways/46_Decode_Ways.cpp) |
 | 47 礼物最大值| 64 [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/64_Minimum_Path_Sum/64_Minimum_Path_Sum.cpp) | 
