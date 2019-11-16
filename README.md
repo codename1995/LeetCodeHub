@@ -13,7 +13,7 @@ LeetCode solution (C++ and Python)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
 * [ ] 3. 《剑指offer》二刷 (6/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (9/144/245) (上传/完成/总数)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (17/144/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -29,6 +29,7 @@ LeetCode solution (C++ and Python)
 139 [Word Break](https://leetcode-cn.com/problems/word-break/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/139_Word_Break/139_Word_Break.cpp) | 1. DP, dp[i] = dp[i-ws] && s[i-ws:i] == word, (ws: word.size())
 152 [Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/152_Maximum_Product_Subarray/152_Maximum_Product_Subarray.cpp) | 1. DP (Update cur_max and cur_min, when meeting a negative number, exchange this two number before updating)
 198 [House Robber](https://leetcode-cn.com/problems/house-robber/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/198_House_Robber/198_House_Robber.cpp) | 1. DP|
+221 [Maximal Square](https://leetcode-cn.com/problems/maximal-square/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/221_Maximal_Square/221_Maximal_Square.cpp) | 1. DP dp[r][c] = min(dp[r-1][c], dp[r][c-1], dp[r-1][c-1]) + 1 表示(r,c)处的最大边长|
 279 [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/279_Perfect_Squares/279_Perfect_Squares.cpp) | 1. DP (Bottom-Up faster)|
 300 [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.cpp) | 1. DP O(n^2) <br> 2. DP + Binary Searcy O(nlogn)|
 322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Bottom-Up)|
