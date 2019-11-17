@@ -13,7 +13,7 @@ LeetCode solution (C++ and Python)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
 * [ ] 3. 《剑指offer》二刷 (6/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (17/144/245) (上传/完成/总数)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (20/144/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -28,12 +28,16 @@ LeetCode solution (C++ and Python)
 121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) | 1. DP|
 139 [Word Break](https://leetcode-cn.com/problems/word-break/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/139_Word_Break/139_Word_Break.cpp) | 1. DP, dp[i] = dp[i-ws] && s[i-ws:i] == word, (ws: word.size())
 152 [Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/152_Maximum_Product_Subarray/152_Maximum_Product_Subarray.cpp) | 1. DP (Update cur_max and cur_min, when meeting a negative number, exchange this two number before updating)
+191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  |
 198 [House Robber](https://leetcode-cn.com/problems/house-robber/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/198_House_Robber/198_House_Robber.cpp) | 1. DP|
 221 [Maximal Square](https://leetcode-cn.com/problems/maximal-square/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/221_Maximal_Square/221_Maximal_Square.cpp) | 1. DP dp[r][c] = min(dp[r-1][c], dp[r][c-1], dp[r-1][c-1]) + 1 表示(r,c)处的最大边长|
 279 [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/279_Perfect_Squares/279_Perfect_Squares.cpp) | 1. DP (Bottom-Up faster)|
 300 [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.cpp) | 1. DP O(n^2) <br> 2. DP + Binary Searcy O(nlogn)|
+309 [Best Time To Buy And Sell Stock With Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/309_Best_Time_To_Buy_And_Sell_Stock_With_Cooldown/309_Best_Time_To_Buy_And_Sell_Stock_With_Cooldown.cpp) | 1. DP|
 322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Bottom-Up)|
-| 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
+337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
+338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)| 1. 偶数的1的个数与其1/2数的1的个数相等，奇数的1的个数是前一个数的1的个数+1
+343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/343_Interger_Break.cpp)  | 1. 穷举找规律，发现4及以下单独处理，4不停地分出3 |
 
 # Sort by coding-interview (剑指offer)
 这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。  
