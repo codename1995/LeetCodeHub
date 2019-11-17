@@ -9,7 +9,7 @@ TBC
 ## Tree
 ### Binary Search Tree
 #### Inorder
-```C++
+```C++ {.line-numbers}
 // Print the INORDER of a BST in a vector
 
 /**
@@ -50,7 +50,7 @@ vector<int> inorder(TreeNode* root){
 ## Classical Sort Algorithms
 ### MERGE-SORT
 #### Pseudo-code
-```Python
+```Python {.line-numbers}
 # Adapted from "Introduction to Algorithms"
 def Merge_Sort(A, l, r):
     if (l<r):
@@ -86,7 +86,7 @@ Use a simple alphabet hash table so that we can check whether a character exist 
 or the first/last position of the character in string s.
 #### Template
 
-```C++
+```C++ {.line-numbers}
 /* Alphabet Hash Table Template
  *@method 
  *@for 
@@ -115,7 +115,7 @@ for (int i=0;i!=s.size();i++){
 ## Sliding windows
 #### Template
 
-```C++
+```C++ {.line-numbers}
 /* Sliding Windows Template
  *@method 
  *@for 
