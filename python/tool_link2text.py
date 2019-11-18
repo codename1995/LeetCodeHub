@@ -28,7 +28,7 @@ titled_hyperlink_with_space = Problem_name.replace('-', ' ').title()
 last_word = titled_hyperlink_with_space.split(' ')[-1]
 b_last_word_is_index = True
 for ch in last_word:
-    if ch!='i' and ch!='I':
+    if ch not in {'i', 'I', 'v', 'V'}:
         b_last_word_is_index = False
         break
 if b_last_word_is_index:
