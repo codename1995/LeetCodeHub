@@ -19,11 +19,9 @@ public:
 		//				  N--------- dp[i] = dp[i-1]
 
 		if (s[0] == '0') return 0;
-		int prv2 = 0, prv1 = 1, cur = 1; // prv2, prv1表示dp[i-2]和dp[i-1]
-		for (int i = 1; i <= s.size(); i++)
+		int prv2 = 1, prv1 = 1, cur; // prv2, prv1表示dp[i-2]和dp[i-1]
+		for (int i = 1; i < s.size(); i++) // string结尾有结束符；size算到结束符前一位
 		{
-			prv2 = prv1;
-			prv1 = cur;
 			if (s[i] == '0') // 10,20
 			{
 				if (s[i - 1] == '1' || s[i - 1] == '2') cur = prv2;
@@ -35,7 +33,19 @@ public:
 					cur = prv2 + prv1;
 				else cur = prv1; // 1-9
 			}
+			prv2 = prv1;
+			prv1 = cur;
 		}
 		return cur;
 	}
 };
+
+
+void main()
+{
+	Solution solu;
+
+	string case1{ "112" };
+	cout << case1[3] << endl;
+	cout << (solu.numDecodings(case1) == 3) << endl;
+}
