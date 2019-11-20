@@ -47,7 +47,8 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
-| 03 数组中重复的数字 | 287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.cpp) |  
+| 03 数组中重复的数字 | | [官方题解](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/03_01_DuplicationInArray/FindDuplication.cpp)
+| 03_02 不修改数组找出重复的数字 |287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.cpp) |  
 | 04 二维数组中的查找 | 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.cpp)  |  
 | 05 [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_05_ReplaceSpace/05_ReplaceSpace.cpp) | 
 | 06 从尾到头打印链表|| 可参考 24 反转链表|

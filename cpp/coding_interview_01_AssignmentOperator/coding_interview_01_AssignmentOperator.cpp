@@ -15,18 +15,6 @@ private:
 };
 
 // 默写区域
-CMyString& CMyString::operator=(const CMyString& str)
-{
-	if (this != &str) {
-		CMyString strTemp(str);
-
-		char* tmpData = str.m_pData;
-		strTemp.m_pData = tmpData;
-		m_pData = strTemp.m_pData;
-	}
-	return *this;
-}
-
 
 
 
