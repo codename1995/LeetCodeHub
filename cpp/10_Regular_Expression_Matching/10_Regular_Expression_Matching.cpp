@@ -27,12 +27,12 @@ public:
 		dp.back().back() = true;
 		for (int i = s.size(); i != -1; --i) {
 			for (int j = p.size() - 1; j != -1; --j) {
-				printMatrix(dp);
-				bool first_match = i<s.size() && (s[i] == p[j] || p[j] == '.');
+				bool first_match = i<s.size() && (s[i] == p[j] || p[j] == '.'); 
 				if (j+1<p.size() && p[j + 1] == '*')
 					dp[i][j] = dp[i][j + 2] || (first_match && dp[i + 1][j]);
 				else
 					dp[i][j] = first_match && dp[i + 1][j + 1];
+				printMatrix(dp);
 			}
 		}
 		return dp[0][0];
@@ -69,6 +69,7 @@ void Test(const char* testName, const char* str, const char* pattern, bool expec
 
 int main(int argc, char* argv[])
 {
+	Test("TEST00", "baa", ".a*", true);
 	Test("Test01", "", "", true);
 	Test("Test02", "", ".*", true);
 	Test("Test03", "", ".", false);
