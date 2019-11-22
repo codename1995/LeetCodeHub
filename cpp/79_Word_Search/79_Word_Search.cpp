@@ -1,4 +1,10 @@
-﻿int dr[] = { -1,1,0,0 };
+﻿#include<iostream>
+#include<cstring>
+#include<vector>
+
+using namespace std;
+
+int dr[] = { -1,1,0,0 };
 int dc[] = { 0,0,-1,1 };
 class Solution {
 public:
@@ -9,22 +15,19 @@ public:
 	bool dfs(int r, int c, int cnt) {
 		if (r >= 0 && r < nr && c >= 0 && c < nc && cnt < w.size() && b[r][c] == w[cnt]) {
 			if (cnt == w.size() - 1) return true;
-			else
-			{
-				bool flag = false;
-				char ch = b[r][c];
-				b[r][c] = '#';
-				for (int i = 0; i != 4; i++) {
-					if (dfs(r + dr[i], c + dc[i], cnt + 1))
-					{
-						// cout<< r << c << endl;
-						flag = true;
-						break;
-					}
+			bool flag = false;
+			char ch = b[r][c];
+			b[r][c] = '#';
+			for (int i = 0; i != 4; i++) {
+				if (dfs(r + dr[i], c + dc[i], cnt + 1))
+				{
+					// cout<< r << c << endl;
+					flag = true;	// 不能直接返回true，必须在将visited数组复位之后返回结果。
+					break;
 				}
-				b[r][c] = ch;
-				return flag;
 			}
+			b[r][c] = ch;
+			return flag;
 		}
 		return false;
 	}
