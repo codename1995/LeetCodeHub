@@ -67,6 +67,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 11 旋转数组中的最小数字  | 153 [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/153_Find_Minimum_in_Rotated_Sorted_Array/153_Find_Minimum_in_Rotated_Sorted_Array.cpp)  核心是比较nums[m]与nums[r]|
 | 12 矩阵中的路径  | 79 [Word Search](https://leetcode-cn.com/problems/word-search/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/79_Word_Search/79_Word_Search.cpp)  |
 | 13 机器人的运动范围  |   | 可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
+|| （类似）1254 [Number Of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1254_Number_Of_Closed_Islands/1254_Number_Of_Closed_Islands.cpp) 二维矩阵+DFS|
 | 14 剪绳子 | 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/343_Interger_Break.cpp)  |
 | 15 二进制中1的个数  | 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  |
 ||(Advanced) 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)|
