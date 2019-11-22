@@ -52,7 +52,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 
 | 剑指offer | Leetcode | Solution |  
 | --- | --- | --- | 
-| 03 数组中重复的数字 | | [官方题解](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/03_01_DuplicationInArray/FindDuplication.cpp) 以原数组做哈希表
+| 03 数组中重复的数字 | | [官方题解](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_03_01_FindDuplicates/coding_interview_03_01_FindDuplicates.cpp) 以原数组做哈希表
 | 03_02 不修改数组找出重复的数字 |287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.cpp) |  
 | 04 二维数组中的查找 | 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.cpp)  |  
 | 05 [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_05_ReplaceSpace/05_ReplaceSpace.cpp) | 
@@ -120,6 +120,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 52 两个链表的第一个公共节点|160 [Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/160_Intersection_Of_Two_Linked_Lists/160_Intersection_Of_Two_Linked_Lists.cpp)|
 | 53_01 数字在排序数组中出现的次数 | 34 [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.cpp )|
 | 53_02 0..N-1中确实的数字 |268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) |
+| 53_03 数组中数值和下标相等的元素 || 二分查找，[官方题解](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/53_03_IntegerIdenticalToIndex/IntegerIdenticalToIndex.cpp)|
 | 54 二叉搜索树的第k大节点|230 [Kth Smallest Element In A Bst](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Kth_Smallest_Element_In_A_Bst/230_Kth_Smallest_Element_In_A_Bst.cpp) |
 | 55 二叉树的深度|104 [Maximum Depth Of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/104_Maximum_Depth_Of_Binary_Tree/104_Maximum_Depth_Of_Binary_Tree.cpp) |
 | 56_00 56题的前置 数组中只出现1次的那个数字| 136 [Single Number](https://leetcode-cn.com/problems/single-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/136_Single_Number/136_Single_Number.cpp)  XOR for every single number|
