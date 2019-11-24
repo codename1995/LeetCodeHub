@@ -3,6 +3,10 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2019/11/24| WC164 |[访问所有点的最小时间 Minimum Time Visiting All Points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) |E|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_01_Minimum_Time_Visiting_All_Points.py)|
+|||[统计参与通信的服务器 Count Servers That Communicate](https://leetcode-cn.com/problems/count-servers-that-communicate/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC164_02_Count_Servers_That_Communicate/WC164_02_Count_Servers_That_Communicate.cpp)|
+|||[搜索推荐系统 Search Suggestions System](https://leetcode-cn.com/problems/search-suggestions-system/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_03_Search_Suggestions_System.py)|
+|||[停在原地的方案数 Number of Ways to Stay in the Same Place after Some Steps](https://leetcode-cn.com/contest/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|H|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC164_04_Number_Of_Ways_To_Stay_In_The_Same_Place_After_Some_Steps/WC164_04_Number_Of_Ways_To_Stay_In_The_Same_Place_After_Some_Steps.cpp)|
 |2019/11/17| WC163 | [二维网格迁移 Shift 2D Grid](https://leetcode-cn.com/problems/shift-2d-grid/) | E|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC_163_01_Shift_2D_Grid/WC_163_01_Shift_2D_Grid.cpp)|
 |||[在受污染的二叉树中查找元素 Find Elements in a Contaminated Binary Tree](https://leetcode-cn.com/contest/weekly-contest-163/problems/find-elements-in-a-contaminated-binary-tree/)|M|略 ~~(其实是懒得看了)~~ |
 |||[可被三整除的最大和 Greatest Sum Divisible By Three](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC_163_03_Greatest_Sum_Divisible_by_Three/WC_163_03_Greatest_Sum_Divisible_by_Three.cpp) |
@@ -12,6 +16,15 @@
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
 
+#### WC164
+第一次完赛，撒花！！
+**第一题** 直接取 max(x_i - x_i-1, y_i - y_i-1) 作为两点之间的运动时间即可
+**第二题** 哪些服务器是无法参与通讯的？只有其所在行和列均只有一个服务器的那些不能参与通讯。再由 总服务器-孤独的服务器=可参与通讯的服务器
+**第三题** 我的算法T: O(nm), S: O(m) （其中n和m分别为len(products)和len(searchWord)），看了下题解，发现我这算法复杂度还算低的，而且也不需要额外的数据结构
+基本思路是，从头开始遍历searchWord的每个字母，将products中同样位置字符相同的product取出来构成new_products，其前三个加入返回的list中，再将整个new_products赋值给products供匹配下一个字母时使用。
+**第四题** 动态规划就完事了，控制复杂度的核心值`steps<500`，O(steps^2)<2.5*1e6，因此无需优化
+这次的题目整体上比较简单，基本不需要特殊的数据结构和算法就能直接过。
+尽管如此，完赛还是很开心！
 #### WC163
 这次竞赛气到昏过去，竟然一道题也没做出来。  
 
@@ -48,7 +61,8 @@
 #### Rank
 |No. | Rank| Overcome|
 |---|---|---|
+|WC164 |145/1674  |**91.3%**|
 |WC163 |1500/1604 |6.5%|
 |WC162 |451/1568 |71.2%|
-|WC160 |207/1691 |**87.8%**|
+|WC160 |207/1691 |87.8%|
 |WC159 |539/1633 |67.0%|
