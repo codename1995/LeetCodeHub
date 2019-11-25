@@ -12,8 +12,8 @@ LeetCode solution (C++ and Python)
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-* [ ] 3. 《剑指offer》二刷 (6/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (20/144/245) (上传/完成/总数)
+* [ ] 3. 《剑指offer》二刷 (15/66)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (21/162/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -35,6 +35,7 @@ LeetCode solution (C++ and Python)
 188 [Best Time To Buy And Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/188_Best_Time_To_Buy_And_Sell_Stock_IV/188_Best_Time_To_Buy_And_Sell_Stock_IV.cpp) | 1. DP Table/State Machine |
 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  | 1. n &= (n-1) 能够将最右一位1置零
 198 [House Robber](https://leetcode-cn.com/problems/house-robber/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/198_House_Robber/198_House_Robber.cpp) | 1. DP|
+208 [Implement Trie Prefix Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/208_Implement_Trie_Prefix_Tree/208_Implement_Trie_Prefix_Tree.cpp) | 1. 前缀树
 221 [Maximal Square](https://leetcode-cn.com/problems/maximal-square/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/221_Maximal_Square/221_Maximal_Square.cpp) | 1. DP dp[r][c] = min(dp[r-1][c], dp[r][c-1], dp[r-1][c-1]) + 1 表示(r,c)处的最大边长|
 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.cpp)  |  1. 自右上向左或向下移动指针，直到找到目标或者退出循环 |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) | 1. 两遍XOR，剩余的就是答案； <br> 2. 数学方法，利用求和公式减去实际和|
@@ -66,7 +67,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 10_02 青蛙跳台阶 | 70 [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/70_Climbing_Stairs/70_Climbing_Stairs.cpp) |
 | 11 旋转数组中的最小数字  | 153 [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/153_Find_Minimum_in_Rotated_Sorted_Array/153_Find_Minimum_in_Rotated_Sorted_Array.cpp)  核心是比较nums[m]与nums[r]|
 | 12 矩阵中的路径  | 79 [Word Search](https://leetcode-cn.com/problems/word-search/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/79_Word_Search/79_Word_Search.cpp)  |
-| 13 机器人的运动范围  |   | 可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
+| 13 机器人的运动范围  |   | [官方题解](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/coding_interview_13_RobotMove/coding_interview_13_RobotMove.cpp) <br>亦可参考1219 黄金矿工，也是二维矩阵dfs搜索的问题，而且更难一些  |
 || （类似）1254 [Number Of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1254_Number_Of_Closed_Islands/1254_Number_Of_Closed_Islands.cpp) 二维矩阵+DFS|
 | 14 剪绳子 | 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/343_Interger_Break.cpp)  |
 | 15 二进制中1的个数  | 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  |
