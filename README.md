@@ -12,8 +12,8 @@ LeetCode solution (C++ and Python)
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-* [ ] 3. 《剑指offer》二刷 (15/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (21/162/245) (上传/完成/总数)
+* [ ] 3. 《剑指offer》二刷 (21/66)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (29/162/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -21,6 +21,7 @@ LeetCode solution (C++ and Python)
 005 [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/5_Longest_Palindromic_Substring/5_Longest_Palindromic_Substring.cpp) | 1. 中心扩展
 010 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
 034 [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.cpp )| 1. 两次二分，分别返回 不大于/大于 target的第一个位置。需要注意两次二分的细节差异和确定返回位置是否在数组范围内。
+| 050 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/50_Pow/50_Pow.cpp)   | 1. 注意考虑特殊情况和溢出 |
 053 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/53_Maximum_Subarray.cpp)| 1. DP |
 062 [Unique Paths](https://leetcode-cn.com/problems/unique-paths/ ) | [Python](https://github.com/codename1995/leetcodehub/blob/master/python/62_Unique_Paths.py) | 1. DP 
 064 [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/64_Minimum_Path_Sum/64_Minimum_Path_Sum.cpp) | 1. DP|
