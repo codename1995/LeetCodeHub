@@ -1,3 +1,14 @@
+#include<iostream>
+#include<cstring>
+
+using namespace std;
+
+ struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -8,27 +19,20 @@
  */
 class Solution {
 public:
-    ListNode* deleteDuplicates(ListNode* head) {
-        if (!head || !head->next) return head;
-        ListNode *l, *r;
-        l = head;
-        r = head->next;
-        while (r)
-        {
-            if (l->val == r->val && r->next)
-                r = r->next;
-            else if(l->val == r->val)
-            {
-                l->next = NULL;
-                r = NULL;
-            }
-            else
-            {
-                l->next = r;
-                l = l->next;
-                r = l->next;
-            }
-        }
-        return head;
-    }
+	ListNode* deleteDuplicates(ListNode* head) {
+		if (!head) return head;
+		ListNode* prev = head;
+		ListNode* curr = prev->next;
+		while (curr) {
+			if (prev->val == curr->val) {
+				prev->next = curr->next;
+				curr = curr->next;
+			}
+			else {
+				prev = curr;
+				curr = curr->next;
+			}
+		}
+		return head;
+	}
 };

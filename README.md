@@ -7,6 +7,7 @@ LeetCode solution (C++ and Python)
 - [Leetcode Hot & Top](#leetcode-hot--top)
 - [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
 - [Tag](#tag)
+- [Leetcode Other](#leetcode-other)
 
 # TODO
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
@@ -21,6 +22,8 @@ LeetCode solution (C++ and Python)
 005 [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/5_Longest_Palindromic_Substring/5_Longest_Palindromic_Substring.cpp) | 1. 中心扩展
 010 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
 034 [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array/34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.cpp )| 1. 两次二分，分别返回 不大于/大于 target的第一个位置。需要注意两次二分的细节差异和确定返回位置是否在数组范围内。
+| 046 [Permutations ](https://leetcode-cn.com/problems/permutations/) (unique number) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/46_Permutations/46_Permutations.cpp)  | 1. DFS+标记 |
+| 047 [Permutations ii ](https://leetcode-cn.com/problems/permutations-ii/) (maybe duplicate)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/47_Permutations_II/47_Permutations_II.cpp) | 1. DFS+标记+剪枝
 | 050 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/50_Pow/50_Pow.cpp)   | 1. 注意考虑特殊情况和溢出 |
 053 [Maximum  Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/53_Maximum_Subarray/53_Maximum_Subarray.cpp)| 1. DP |
 062 [Unique Paths](https://leetcode-cn.com/problems/unique-paths/ ) | [Python](https://github.com/codename1995/leetcodehub/blob/master/python/62_Unique_Paths.py) | 1. DP 
@@ -36,8 +39,9 @@ LeetCode solution (C++ and Python)
 188 [Best Time To Buy And Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/188_Best_Time_To_Buy_And_Sell_Stock_IV/188_Best_Time_To_Buy_And_Sell_Stock_IV.cpp) | 1. DP Table/State Machine |
 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  | 1. n &= (n-1) 能够将最右一位1置零
 198 [House Robber](https://leetcode-cn.com/problems/house-robber/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/198_House_Robber/198_House_Robber.cpp) | 1. DP|
-208 [Implement Trie Prefix Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/208_Implement_Trie_Prefix_Tree/208_Implement_Trie_Prefix_Tree.cpp) | 1. 前缀树
+208 [Implement Trie Prefix Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/208_Implement_Trie_Prefix_Tree/208_Implement_Trie_Prefix_Tree.cpp) | 1. 前缀树 = 26个子树+1个is_end标记
 221 [Maximal Square](https://leetcode-cn.com/problems/maximal-square/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/221_Maximal_Square/221_Maximal_Square.cpp) | 1. DP dp[r][c] = min(dp[r-1][c], dp[r][c-1], dp[r-1][c-1]) + 1 表示(r,c)处的最大边长|
+237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  | 
 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.cpp)  |  1. 自右上向左或向下移动指针，直到找到目标或者退出循环 |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) | 1. 两遍XOR，剩余的就是答案； <br> 2. 数学方法，利用求和公式减去实际和|
 279 [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/279_Perfect_Squares/279_Perfect_Squares.cpp) | 1. DP (Bottom-Up faster)|
@@ -75,9 +79,8 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 ||(Advanced) 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)|
 | 16 数值的整数次方 | 50 [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/50_Pow/50_Pow.cpp), Python   |
 | 17 打印从1到最大的n位数 |   |   |
-| 18 删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  |
-|   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.cpp)  |
-| 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/83_Remove_Duplicates_from_Sorted_List/Remove_Duplicates_from_Sorted_List.cpp)  |
+| 18_01 在O(1)的时间内删除链表的节点  | 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  |
+| 18_02 删除链表中重复的节点  | 83 [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/83_Remove_Duplicates_from_Sorted_List/83_Remove_Duplicates_from_Sorted_List.cpp)  |
 | 19 正则表达式匹配  | 10 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp),[Python](https://github.com/codename1995/LeetCodeHub/blob/master/python/10.RegularExpressionMatching.py), adapted from [offical solution](https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode/)  |
 | 20 表示数值的字符串  | 65 [Valid Number](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/Valid_Number.cpp) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/65_Valid_Number/65_Valid_Number.cpp)  |
 | 21 调整数组顺序使奇数位于偶数前面  |905 [Sort Array By Parity](https://leetcode-cn.com/problems/sort-array-by-parity/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/905_Sort_Array_by_Parity/905_Sort_Array_by_Parity.cpp)  |
@@ -98,8 +101,8 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/138_Copy_List_with_Random_Pointer/138_Copy_List_with_Random_Pointer.cpp)  |
 | 36 二叉搜索树与双向链表  | (Primer) 426 [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List/426_Convert_Binary_Search_Tree_to_Sorted_Doubly_Linked_List.cpp) 光有思路不行，这题自己写比题解的简洁性差很多 |
 | 37 序列化二叉树  | 297 [serialize and deserialize binary tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/297_Serialize_and_Deserialize_Binary_Tree/297_Serialize_and_Deserialize_Binary_Tree.cpp)  |
-| 38 字符串的排列  | 46 [Permutations (unique number)](https://leetcode-cn.com/problems/permutations/)  | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/46_Permutations/46_Permutations.cpp)  |
-| | 47 [Permutations ii (perhaps duplicates)](https://leetcode-cn.com/problems/permutations-ii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/47_Permutations_II/47_Permutations_II.cpp) |
+| 38 字符串的排列  | 46 [Permutations ](https://leetcode-cn.com/problems/permutations/) (unique number) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/46_Permutations/46_Permutations.cpp)  |
+|   | 47 [Permutations ii ](https://leetcode-cn.com/problems/permutations-ii/) (maybe duplicate)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/47_Permutations_II/47_Permutations_II.cpp) |
 | | 51 [N Queens](https://leetcode-cn.com/problems/n-queens/) ||
 | 39 数组中出现次数超过一半的数字 | 169 [majority element (appear over 1/2)](https://leetcode-cn.com/problems/majority-element/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/169_Majority_Element/169_Majority_Element.cpp) | 
 | | 229 [majority element ii (appear over 1/3)](https://leetcode-cn.com/problems/majority-element-ii/) |  |
@@ -146,10 +149,12 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 67 把字符串转换成整数|||
 | 68 树中两个节点的最低公共祖先|||
 
+<!-- ||   | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.cpp)  |-->
 # Tag
 按Tag整理常见解题思路。存放在[这里](https://github.com/codename1995/LeetCodeHub/tree/master/Tag)  
 以 VS Code + Markdown Perview Enhanced 打开会更好。
 
-<!-- |   | [](https://leetcode-cn.com/problems/ | [C++](),[Python]()  | -->
-<!-- [C++](),[Python]() -->
-<!-- [](https://leetcode-cn.com/problems/) -->
+# Leetcode Other
+|Problem|Solution|
+|---|---|
+| 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.cpp)
