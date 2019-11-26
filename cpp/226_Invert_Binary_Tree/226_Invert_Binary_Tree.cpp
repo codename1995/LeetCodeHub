@@ -23,6 +23,7 @@ struct TreeNode {
 class Solution {
 public:
 	TreeNode* invertTree(TreeNode* root) {
+		// 1. 递归（推荐）
 		if (!root) return root;
 		TreeNode* tmp;
 		tmp = root->left;
@@ -32,5 +33,22 @@ public:
 		invertTree(root->right);
 
 		return root;
+
+		// 2. 循环，亦可
+		//if (!root) return root;
+		//queue<TreeNode*> q;
+		//q.push(root);
+		//while (!q.empty()) {
+		//	TreeNode* r = q.front();
+		//	q.pop();
+
+		//	TreeNode* tmp = r->left;
+		//	r->left = r->right;
+		//	r->right = tmp;
+
+		//	if (r->left) q.push(r->left);
+		//	if (r->right) q.push(r->right);
+		//}
+		//return root;
 	}
 };
