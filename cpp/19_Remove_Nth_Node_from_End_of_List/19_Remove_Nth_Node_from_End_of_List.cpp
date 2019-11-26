@@ -40,7 +40,6 @@ public:
 
 		while (f->next)
 		{
-			
 			f = f->next;
 			s = s->next;
 		}

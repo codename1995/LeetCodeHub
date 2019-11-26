@@ -1,4 +1,5 @@
 ﻿#include<string>
+#include<iostream>
 
 using namespace std;
 
@@ -6,19 +7,15 @@ class Solution {
 public:
 	int i; // idx of string
 	bool scanInteger(string s) {
-		bool isNumber = false;
-		if (s[i] == '+' || s[i] == '-')
-			i++;
-		
+		if (s[i] == '+' || s[i] == '-') ++i;
+
 		return scanUnsignedInteger(s);
 	}
 	bool scanUnsignedInteger(string s){
 		bool isNumber = false;
 		for (; i <= s.size() - 1; i++) {
 			if (s[i] <= '9' && s[i] >= '0')
-			{
 				isNumber = true;
-			}
 			else break;
 		}
 		return isNumber;
@@ -35,6 +32,7 @@ public:
 
 		bool numeric = scanInteger(s);
 
+		cout << numeric << ' ' << i << endl;
 		if (i!=s.size() && s[i] == '.')
 		{
 			// 3种情况：
@@ -44,14 +42,15 @@ public:
 			i++;
 			numeric = scanUnsignedInteger(s) || numeric;
 		}
+		cout << numeric << ' ' << i << endl;
 
 		if (i != s.size() && s[i] == 'e' || s[i] == 'E')
 		{
 			i++;
-			if (i != s.size() && s[i] == '+') i++;
 			numeric = numeric && scanInteger(s);
 		}
 
+		cout << numeric << ' ' << i << endl;
 		while (i != s.size() && s[i] == ' ') i++;
 		return (numeric && i == s.size());
 
@@ -99,6 +98,9 @@ int main(int argc, char* argv[])
 	Test("Test18", "e1", false);
 	Test("Test19", "+.", false);
 	Test("Test20", "", false);
+	Test("Test21", "0.9", true);
+	Test("Test22", "0.9e++1", false);
+	Test("Test23", "0.9e-1", true);
 
 	return 0;
 }
