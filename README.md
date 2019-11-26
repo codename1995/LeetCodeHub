@@ -13,7 +13,7 @@ LeetCode solution (C++ and Python)
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-* [ ] 3. 《剑指offer》二刷 (21/66)
+* [ ] 3. 《剑指offer》二刷 (36/66)
 * [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (29/162/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
