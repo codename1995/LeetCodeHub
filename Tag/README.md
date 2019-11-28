@@ -75,6 +75,41 @@ def Merge(A, l, m, r):
 ```
 #### Problems
 H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)
+### QUICK-SORT
+#### Pseudo-code
+```cpp
+    int partition(vector<int> &nums, int l, int r, int pivot_ix){
+        int pivot = nums[pivot_ix];
+        swap(nums[r], nums[pivot_ix]);
+
+        int pos = l;
+        for (int i=l;i<=r;++i){
+            if (nums[i]>pivot){
+                swap(nums[i], nums[pos++]);
+            }
+        }
+
+        swap(nums[pos], nums[r]);
+        return pos;
+    }
+    void QUICK-SORT-CORE(vector<int> &array, int l, int r){
+        if (l>=r) return; 
+
+        int pivot_ix = randomRange(l,r); // 在[l,r]范围内随机产生一个数
+        int pos = partition(nums, l, r, pivot_ix);
+        QUICK-SORT-CORE(nums,l,pos-1);
+        QUICK-SORT-CORE(nums,pos+1,r);
+    }
+    vector<int> QUICK-SORT(vector<int> &array){
+        if (array.size()>1)
+            QUICK-SORT-CORE(array, 0, array.size()-1);
+        return array;
+    }
+```
+
+#### Problem
+E 169 [Majority Element](https://leetcode-cn.com/problems/majority-element/submissions/) It could be solved by quick-sort-like algorithm.
+M 215 [Kth Largest Element in an array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 # Method
 ## DP
 
