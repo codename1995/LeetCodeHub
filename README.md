@@ -14,7 +14,7 @@ LeetCode solution (C++ and Python)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
 * [ ] 3. 《剑指offer》二刷 (36/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (29/162/245) (上传/完成/总数)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (35/163/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -55,7 +55,7 @@ LeetCode solution (C++ and Python)
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) | 1. 两遍XOR，剩余的就是答案； <br> 2. 数学方法，利用求和公式减去实际和|
 279 [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/279_Perfect_Squares/279_Perfect_Squares.cpp) | 1. DP (Bottom-Up faster)|
 287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.cpp) |  1. 排序+逐个比较，能过，但**不符合要求** <br> 2. 对数值进行二分，统计[l,m]和(m,h]中数字的数量，重复数在大于标准值(m-l+1或h-m)的那一半里
-295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/295_Find_Median_From_Data_Stream/295_Find_Median_From_Data_Stream.cpp) | 1. 二分法插入，通过随机访问返回，O(logn)。不推荐，随机访问快的数据结构在中间插入这个操作上耗时。<br> 2. 维护较小半组数的最大堆和较大半组数的最小堆。
+295 [Find Median From Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) |[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/295_Find_Median_From_Data_Stream/295_Find_Median_From_Data_Stream.cpp) | 1. 二分法插入，通过随机访问返回，O(logn)。不推荐，随机访问快的数据结构在中间插入这个操作上耗时。<br> 2. 维护较小半组数的最大堆和较大半组数的最小堆。总插入时间复杂度O(nlogn)，查询时间复杂度O(1)
 300 [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.cpp) | 1. DP O(n^2) <br> 2. DP + Binary Searcy O(nlogn)|
 309 [Best Time To Buy And Sell Stock With Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/309_Best_Time_To_Buy_And_Sell_Stock_With_Cooldown/309_Best_Time_To_Buy_And_Sell_Stock_With_Cooldown.cpp) | 1. DP <br> 2. 有限状态机（rest, hold, sold)|
 322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Bottom-Up)|

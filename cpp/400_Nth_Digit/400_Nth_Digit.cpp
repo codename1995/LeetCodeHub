@@ -28,9 +28,8 @@ public:
 		// 并且，该number的实际值为 (n - 1) / k + pow(10, k - 1)
 		int the_integer = (n - 1) / k + pow(10, k - 1);
 		string s = to_string(the_integer);
-		if (n % k == 0) return s[-1];
-		return s[n % k - 1];
-
+		if (n % k == 0) return s.back() - '0';
+		return s[n % k - 1] - '0';
 	}
 };
 
