@@ -9,44 +9,44 @@ using namespace std;
 
 class Solution {
 public:
-	vector<int> _nums;
-	int partition(int l, int r, int pivot_index) {
-		int pivot = _nums[pivot_index];
+	vector<int> nums;
+	int partition(int l, int r, int pivot_ix) {
+		int pivot = nums[pivot_ix];
 		// 1. move piovt to end
-		swap(_nums[pivot_index], _nums[r]);
+		swap(nums[pivot_ix], nums[r]);
 
 		// 2. move all smaller elements to the left
 		int store_index = l;
 		for (int i = l; i < r; i++)
 		{
-			if (_nums[i] < pivot)
+			if (nums[i] < pivot)		// 升序，改为  >  则是降序
 			{
-				swap(_nums[i], _nums[store_index]);
+				swap(nums[i], nums[store_index]);
 				store_index++;
 			}
 		}
 
 		// 3. move pivot to its final place
-		swap(_nums[store_index], _nums[r]);
+		swap(nums[store_index], nums[r]);
 		return store_index;
 	}
 	int select(int l, int r, int k_smallest)
 	{
 		// Returns the k-th largest element of list within left..right
-		if (l == r) return _nums[l];
+		if (l == r) return nums[l];
 
-		int pivot_index = l + (r - l) / 2;
+		int pivot_ix = l + (r - l) / 2;
 
-		pivot_index = partition(l, r, pivot_index);
+		pivot_ix = partition(l, r, pivot_ix);
 
-		if (k_smallest == pivot_index)
-			return _nums[k_smallest];
-		else if (k_smallest < pivot_index)
-			return select(l, pivot_index - 1, k_smallest);
+		if (k_smallest == pivot_ix)
+			return nums[k_smallest];
+		else if (k_smallest < pivot_ix)
+			return select(l, pivot_ix - 1, k_smallest);
 		else
-			return select(pivot_index + 1, r, k_smallest);
+			return select(pivot_ix + 1, r, k_smallest);
 	}
-	int findKthLargest(vector<int>& nums, int k) {
+	int findKthLargest(vector<int>& arr, int k) {
 		// Solution 3: One solution for big data
 		// T: O(n*logk) S: O(k)
 		// 逐一读取元素，维护一个大小为k的最小堆/最小优先队列
@@ -68,7 +68,7 @@ public:
 		// the 'nums' will be changed.
 		// 用Partition函数来调整数组，直到右数第k个数确定
 		// algorithm adapted from offical solution
-		_nums = nums;
+		nums = arr;
 		return select(0, nums.size() - 1, nums.size() - k);
 
 		// Solution 1: library  XD
