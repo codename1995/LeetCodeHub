@@ -14,7 +14,7 @@ LeetCode solution (C++ and Python)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
 * [ ] 3. 《剑指offer》二刷 (36/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (35/163/245) (上传/完成/总数)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (39/156/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -62,6 +62,10 @@ LeetCode solution (C++ and Python)
 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)| 1. 偶数的1的个数与其一半有关，奇数的1的个数与前一个数有关
 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/343_Interger_Break.cpp)  | 1. 穷举找规律，发现4及以下单独处理，4以上不停地分出3 |
+437 [Path Sum III](https://leetcode-cn.com/problems/path-sum-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/437_Path_Sum_III/437_Path_Sum_III.cpp) | 1. 队列+DFS，以每个结点为根DFS，注意：值可能为负，因此搜索时直到叶结点再返回
+461 [Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/461_Hamming_Distance/461_Hamming_Distance.cpp) | 1. 位操作，注意不要越界
+617 [Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/617_Merge_Two_Binary_Trees/617_Merge_Two_Binary_Trees.cpp) | 1.递归很简单
+647 [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/647_Palindromic_Substrings/647_Palindromic_Substrings.cpp) | 1. 结合中心展开思想，分别以单中心和双中心展开即可
 
 # Sort by coding-interview (剑指offer)
 这里按照剑指offer的顺序整理了部分Leetcode的题目，方便直接在Leetcode上刷题。同时，也给出了每题能AC的解法，以C++为主。  
