@@ -13,7 +13,7 @@
 #   230_Kth_Smallest_Element_In_A_Bst
 #
 
-idx = eval(input("Please input the No. of problem:"))
+idx = input("Please input the No. of problem:")
 hyperlink = input("Please input the hyperlink:")
 # idx = 230
 # hyperlink = "https://leetcode-cn.com/problems/single-number-iii/"
@@ -35,11 +35,11 @@ if b_last_word_is_index:
      titled_hyperlink_with_space = titled_hyperlink_with_space[:-len(last_word)] + titled_hyperlink_with_space[-len(last_word):].upper()
 
 # a = titled_hyperlink_with_space[-len(last_word):]
-# print("%d [%s](%s)"%(idx, titled_hyperlink_with_space, hyperlink))
+# print("%s [%s](%s)"%(idx, titled_hyperlink_with_space, hyperlink))
 
 # 3 VS Project Name
 hyperlink_with_underling = titled_hyperlink_with_space.replace(' ', '_')
-project_name = str(idx) + '_' + hyperlink_with_underling
+project_name = idx + '_' + hyperlink_with_underling
 
 # 2 C++ & Python Linkk
 pure_project_name = project_name[project_name.find('_')+1:]
@@ -49,10 +49,10 @@ hyperlink_python = prefilix_python_file + project_name + '.py'
 # print("%s"%(project_name))
 
 # Output
-print("%d [%s](%s) | [C++](%s) |\n"%(idx, titled_hyperlink_with_space, hyperlink, hyperlink_cpp))
+print("%s [%s](%s) | [C++](%s) |\n"%(idx, titled_hyperlink_with_space, hyperlink, hyperlink_cpp))
 
 # combine C++ and python link is too long for one line, so put python link in a additional line
-# print("%d [%s](%s) | [C++](%s), [Python](%s) |"\
+# print("%s [%s](%s) | [C++](%s), [Python](%s) |"\
 #       %(idx, titled_hyperlink_with_space, hyperlink, hyperlink_cpp, hyperlink_python))
 print(", [Python](%s)\n"%(hyperlink_python))
 
