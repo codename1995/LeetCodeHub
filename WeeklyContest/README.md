@@ -3,6 +3,10 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2019/12/01| WC165 |[找出井字棋的获胜者 Find Winner on a Tic Tac Toe Game](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) | E | 模拟法，没啥价值，不贴了 |
+|||[不浪费原料的汉堡制作方案 Number of Bugers with no Waste of Ingredients](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | M | 鸡兔同笼问题，没啥价值，不贴了 |
+|||[统计全为1的正方形子矩阵 Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| M | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_03_Count_Square_Submatrices_With_All_Ones/WC165_03_Count_Square_Submatrices_With_All_Ones.cpp)
+|||[分割回文串 III Palindrome Partitioning III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/) | H | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_04%20_Palindrome_Partitioning_III/WC165_04%20_Palindrome_Partitioning_III.cpp)
 |2019/11/24| WC164 |[访问所有点的最小时间 Minimum Time Visiting All Points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) |E|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_01_Minimum_Time_Visiting_All_Points.py)|
 |||[统计参与通信的服务器 Count Servers That Communicate](https://leetcode-cn.com/problems/count-servers-that-communicate/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC164_02_Count_Servers_That_Communicate/WC164_02_Count_Servers_That_Communicate.cpp)|
 |||[搜索推荐系统 Search Suggestions System](https://leetcode-cn.com/problems/search-suggestions-system/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_03_Search_Suggestions_System.py)|
@@ -15,6 +19,20 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+#### WC165
+希望以后都能保三冲四！
+**第一题** 井字格游戏。基础编程能力还是有待提高，写这一题竟然花了30分钟。
+**第二题** 鸡兔同笼思想，题目不难，但是Python语法越来越不熟悉了。
+**第三题** 模拟二维矩阵求最大1为边正方形即可，加上动态规划，O(n^2)
+1. dp数组的递推公式仅与其左，上，左上三个元素的值有关：dp[r][c] = min(dp[r-1][c], dp[r][c-1], dp[r-1][c-1])+1 if matrix[r][c]==1 else 0
+2. 其含义是以当前元素作为右下角的正方形一共有多少个，或理解为，若想让某元素位置的dp值为n，则其左，左上，上三个元素的dp值必然为n-1（即，3*3正方形右下角顶点的左，左上，上三个位置的dp值必然为2）。 
+
+**第四题** 自己没思路，看了讨论区才明白该怎么做。并且花了1个小时debug。。。bug是求字符串变为回文子串代价的那个函数中，求l的地方漏了括号，坑！！
+1. cost[i][j] 表示将s[i..j] 变为回文串的代价
+2. dp[i][j] 表示将前i个字符串划分为j个回文串的代价
+3. dp[i][j] = min( dp[k][j-1]+cost[k][i-1] ) for k in [0,i) 
+   即 前i个字符划分j个回文串的最小代价 = 前k个字符划分j-1个字符串 + 第k+1个字符至第i个字符变成回文串的代价
 
 #### WC164
 第一次完赛，撒花！！  
