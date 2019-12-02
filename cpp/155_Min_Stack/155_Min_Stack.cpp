@@ -8,33 +8,32 @@ using namespace std;
 
 class MinStack {
 public:
-	vector<int> v;
-	vector<int> min_value;
-	
+	stack<int> s, s_min;
 	/** initialize your data structure here. */
 	MinStack() {
 
 	}
 
 	void push(int x) {
-		v.push_back(x);
-		if (min_value.empty() || x < min_value.back())
-			min_value.push_back(x);
-		else
-			min_value.push_back(min_value.back());
+		s.push(x);
+		if (s_min.empty() || s_min.top() >= x) {
+			s_min.push(x);
+		}
 	}
 
 	void pop() {
-		min_value.pop_back();
-		v.pop_back();
+		if (s.top() == s_min.top()) {
+			s_min.pop();
+		}
+		s.pop();
 	}
 
 	int top() {
-		return v.back();
+		return s.top();
 	}
 
 	int getMin() {
-		return min_value.back();
+		return s_min.top();
 	}
 };
 
