@@ -13,8 +13,8 @@ LeetCode solution (C++ and Python)
 * [x] 1. 《剑指offer》习题一刷 (19年11月10日完成)
 * [ ] 2. 按Tag整理习题
    * 对常用的数据结构、方法、套路进行整理
-* [ ] 3. 《剑指offer》二刷 (36/66)
-* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (39/156/245) (上传/完成/总数)
+* [ ] 3. 《剑指offer》二刷 (43/66)
+* [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (45/156/245) (上传/完成/总数)
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
@@ -35,12 +35,15 @@ LeetCode solution (C++ and Python)
 | 079 [Word Search](https://leetcode-cn.com/problems/word-search/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/79_Word_Search/79_Word_Search.cpp)  | 1. DFS+Backtracking
 091 [Decode Ways](https://leetcode-cn.com/problems/decode-ways/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/91_Decode_Ways/91_Decode_Ways.cpp) | 1. DP
 | 101 [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/101_Symmetric_Tree/101_Symmetric_Tree.cpp)  | 1. 递归辅助函数`isMirror(root, root)`
+| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.cpp)| 1. 配合队列做呗，加两个计数器变量，一个比较队列是否输出了这一层的所有结点，一个用于记录下一层共有多少结点
+| 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) | 1. 同102
 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/105_Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)| 1. 根据前序的第一个元素中序中确定根的位置，从而得到左右子树的元素数量，于是将前序和中序分为左右子树。再对左右子树递归此过程
 121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) | 1. DP <br> 2. 遍历数组时维护最小价格，并判断价差是否产生更大收益|
 122 [Best Time To Buy And Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/122_Best_Time_To_Buy_And_Sell_Stock_II/122_Best_Time_To_Buy_And_Sell_Stock_II.cpp) | 1. DP <br> 2. 逐步更新收益 |
 139 [Word Break](https://leetcode-cn.com/problems/word-break/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/139_Word_Break/139_Word_Break.cpp) | 1. DP, dp[i] = dp[i-ws] && s[i-ws:i] == word, (ws: word.size())
 142 [Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/142_Linked_List_Cycle_II/142_Linked_List_Cycle_II.cpp) | 1. 第一步，快慢指针判断有无环，若无环则直接返回； 第二步，若有环，则复位快指针至头结点，然后快慢指针等速向前，必相遇于入环节点。
 152 [Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/152_Maximum_Product_Subarray/152_Maximum_Product_Subarray.cpp) | 1. DP (Update cur_max and cur_min, when meeting a negative number, exchange this two number before updating)
+| 155 [Min Stack](https://leetcode-cn.com/problems/min-stack/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/155_Min_Stack/155_Min_Stack.cpp)  | 1. 维护两个栈，一个正常存数据，另一个存当前最小数值
 169 [majority element](https://leetcode-cn.com/problems/majority-element/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/169_Majority_Element/169_Majority_Element.cpp) | 1. （基础）排序+中位数，复杂度O(n*logn) <br>2. 维护两个变量：某数的出现次数与某数，若出现次数为零，则下一个数来时更新某数，O(n) <br> 3. 基于Partition找到中位数，时间复杂度O(n)
 188 [Best Time To Buy And Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/188_Best_Time_To_Buy_And_Sell_Stock_IV/188_Best_Time_To_Buy_And_Sell_Stock_IV.cpp) | 1. DP Table/State Machine |
 191 [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/191_Number_of_1_Bits/191_Number_of_1_Bits.cpp)  | 1. n &= (n-1) 能够将最右一位1置零
@@ -52,6 +55,7 @@ LeetCode solution (C++ and Python)
 226 [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/226_Invert_Binary_Tree/226_Invert_Binary_Tree.cpp)  | 1. 递归 <br> 2. 循环，需配合队列
 237 [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp) [python](https://github.com/codename1995/LeetCodeHub/blob/master/python/237.DeleteNodeInALinkedList.py)  | 
 240 [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/240_Search_a_2D_Matrix_II/240_Search_a_2D_Matrix_II.cpp)  |  1. 自右上向左或向下移动指针，直到找到目标或者退出循环 |
+(Primer) 255 [Verify Preorder Sequence of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/255_Verify_Preorder_Sequence_of_a_Binary_Tree/255_Verify_Preorder_Sequence_of_a_Binary_Tree.cpp)  | 1. 
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) | 1. 两遍XOR，剩余的就是答案； <br> 2. 数学方法，利用求和公式减去实际和|
 279 [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/279_Perfect_Squares/279_Perfect_Squares.cpp) | 1. DP (Bottom-Up faster)|
 287 [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.cpp) |  1. 排序+逐个比较，能过，但**不符合要求** <br> 2. 对数值进行二分，统计[l,m]和(m,h]中数字的数量，重复数在大于标准值(m-l+1或h-m)的那一半里
@@ -108,8 +112,9 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 29 顺时针打印矩阵  | 54 [Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/54_Spiral_Matrix/54_Spiral_Matrix.cpp)  |
 | 30 包含min函数的栈  | 155 [Min Stack](https://leetcode-cn.com/problems/min-stack/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/155_Min_Stack/155_Min_Stack.cpp)  |
 | 31 栈的压入、弹出序列  | 946 [Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/946_Validate_Stack_Sequences/946_Validate_Stack_Sequences.cpp)  |
-| 32 从上往下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.cpp)|
-| 32_03 之字形遍历二叉树| 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) |
+| 32_01 不分行从上往下打印二叉树 ||LC102简化版|
+| 32_02 分行从上到下打印二叉树| 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.cpp)|
+| 32_03 之字形遍历二叉树| 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) |
 | 33 二叉搜索树的后序遍历序列  | (Primer) 255 [Verify Preorder Sequence of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree/submissions/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/255_Verify_Preorder_Sequence_of_a_Binary_Tree/255_Verify_Preorder_Sequence_of_a_Binary_Tree.cpp)  |
 | 34 二叉树中和为某一值的路径  | 112 [Path Sum](https://leetcode-cn.com/problems/path-sum/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/112_Path_Sum/112_Path_Sum.cpp)  |
 | 35 复杂链表的复制  | 138 [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/138_Copy_List_with_Random_Pointer/138_Copy_List_with_Random_Pointer.cpp)  |

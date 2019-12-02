@@ -9,34 +9,39 @@ class Solution {
 public:
 	bool isValid(vector<int> v, int l, int r)
 	{
-		// LC解法2：T:O(n), S:O(1) 解法1基础上进一步缩小空间复杂度，直接在队列上操作
+		// LC解法2：T:O(n), S:O(1) 解法1基础上进一步缩小空间复杂度，直接在队列上模拟栈操作
 		// 参考：https://blog.csdn.net/qq508618087/article/details/50929129
-		int k = -1, m = INT_MIN;
+		//int pos = -1, minn = INT_MIN;
+		//for (int i = 0; i <= v.size() - 1; i++)
+		//{
+		//	if (v[i] < minn) return false;
+		//	while (pos >= 0 && v[i] > v[pos])
+		//	{
+		//		minn = v[pos--];
+		//	}
+		//	v[++pos] = v[i];
+		//}
+		//return true;
+
+		// LC解法1：T:O(n), S:O(n) 利用栈
+		// 若队列的值逐渐减小，则一直在沿左子树向下，将值入栈
+		// 一旦队列的值变大，说明遇到了右子树，此时需不断出栈，直到找到其根结点
+		// 根节点的判断依据是，若v[i]为右子树结点，v[k]为根，则v[k]<v[i]且v[k-1]>v[i]
+		// 将v[k]的值存于变量m
+		// 若v[i]之后有值小于m，则该前序序列不合格
+		int m = INT_MIN;
+		stack<int> s;
 		for (int i = 0; i <= v.size() - 1; i++)
 		{
 			if (v[i] < m) return false;
-			while (k >= 0 && v[i] > v[k])
+			while (!s.empty() && v[i] > s.top())
 			{
-				m = v[k--];
+				m = s.top();
+				s.pop();	// 不停出栈，直到v[k]<v[i]且v[k-1]>v[i]，令m=v[k]
 			}
-			v[++k] = v[i];
+			s.push(v[i]); // 将右子树顶点作为根 入栈
 		}
 		return true;
-
-		// LC解法1：T:O(n), S:O(n) 利用栈模拟
-		//int m = INT_MIN;
-		//stack<int> s;
-		//for (int i = 0; i <= v.size() - 1; i++)
-		//{
-		//	if (v[i] < m) return false;
-		//	while (!s.empty() && v[i] > s.top())
-		//	{
-		//		m = s.top();
-		//		s.pop();
-		//	}
-		//	s.push(v[i]);
-		//}
-		//return true;
 
 
 

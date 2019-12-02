@@ -24,10 +24,9 @@ class Solution {
 public:
 	bool hasPathSum(TreeNode* root, int sum) {
 		// recusive
-		if (!root && sum == 0) return true;
+		if (!root) return false;
+		if (!root->left && !root->right && sum == root->val) return true;
 		return (root->left && hasPathSum(root->left, sum - root->val))
-			&& (root->right && hasPathSum(root->right, sum - root->val));
-
-
+			|| (root->right && hasPathSum(root->right, sum - root->val));
 	}
 };
