@@ -19,6 +19,7 @@ LeetCode solution (C++ and Python)
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
 | ---       | ---       |  ---         |
+| 001 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/1_Two_Sum.cpp), [Python](https://github.com/codename1995/leetcodehub/blob/master/python/1.two_sum.py) | 1. Hashtable store the index
 005 [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/5_Longest_Palindromic_Substring/5_Longest_Palindromic_Substring.cpp) | 1. 中心扩展
 010 [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/10_Regular_Expression_Matching/10_Regular_Expression_Matching.cpp) | 1. 二维布尔型数组，dp[i][j]表示s[i:]与p[j:]匹配
 | 019 [Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/19_Remove_Nth_Node_from_End_of_List/19_Remove_Nth_Node_from_End_of_List.cpp) |
@@ -154,7 +155,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 56_00 56题的前置 数组中只出现1次的那个数字| 136 [Single Number](https://leetcode-cn.com/problems/single-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/136_Single_Number/136_Single_Number.cpp)  XOR for every single number|
 | 56_01 数组中只出现1次的2个数字 |260 [Single Number III](https://leetcode-cn.com/problems/single-number-iii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Single_Number_III/230_Single_Number_III.cpp) 1. XOR. 2. Split to two subarray.  3. XOR for two subarray, resepctively.
 | 56_02 其他数字都出现三次的数字中唯一只出现一次的数字 | 137 [Single Number II](https://leetcode-cn.com/problems/single-number-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/137_Single_Number_II/137_Single_Number_II.cpp) SUM all and mod 3 for every single bit|
-| 57 和为s的数字|1 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/1_Two_Sum.cpp) |
+| 57_01 和为s的数字|1 [Two Sum](https://leetcode-cn.com/problems/two-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/1_Two_Sum/1_Two_Sum.cpp) |
 | 57_02 和为s的连续正数序列|829 [Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/829_Consecutive_Numbers_Sum/829_Consecutive_Numbers_Sum.cpp) |
 | 58_01 翻转单词顺序| 151 [Reverse Words In A String](https://leetcode-cn.com/problems/reverse-words-in-a-string/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/151_Reverse_Words_In_A_String/151_Reverse_Words_In_A_String.cpp) |
 | 58_02 左旋转字符串|189 [Rotate Array](https://leetcode-cn.com/problems/rotate-array/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/189_Rotate_Array/189_Rotate_Array.cpp)  |
@@ -180,3 +181,4 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 |---|---|---|
 | 110 [Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.cpp) | 1. 递归；简单，但最差时间复杂度O(n^2)  <br> 2. 自底向上，比较左右子结点的深度，若相差<=1，则返回更大的那个深度，否则返回-1
 | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.cpp)
+| 829 [Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/829_Consecutive_Numbers_Sum/829_Consecutive_Numbers_Sum.cpp) | 1. 剑指offer和简单数学枚举法都会超时，需要在等差数列基础上进一步优化约束范围
