@@ -37,6 +37,7 @@ LeetCode solution (C++ and Python)
 | 101 [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)  | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/101_Symmetric_Tree/101_Symmetric_Tree.cpp)  | 1. 递归辅助函数`isMirror(root, root)`
 | 102 [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.cpp)| 1. 配合队列做呗，加两个计数器变量，一个比较队列是否输出了这一层的所有结点，一个用于记录下一层共有多少结点
 | 103 [Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/103_Binary_Tree_Zigzag_Level_Order_Traversal/103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) | 1. 同102
+104 [Maximum Depth Of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/104_Maximum_Depth_Of_Binary_Tree/104_Maximum_Depth_Of_Binary_Tree.cpp) | 1. 递归，两行即可
 105 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/105_Construct_Binary_Tree_from_Preorder_and_Inorder/105_Construct_Binary_Tree_from_Preorder_and_Inorder.cpp)| 1. 根据前序的第一个元素中序中确定根的位置，从而得到左右子树的元素数量，于是将前序和中序分为左右子树。再对左右子树递归此过程
 121 [Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/121_Best_Time_To_Buy_And_Sell_Stock/121_Best_Time_To_Buy_And_Sell_Stock.cpp) | 1. DP <br> 2. 遍历数组时维护最小价格，并判断价差是否产生更大收益|
 122 [Best Time To Buy And Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/122_Best_Time_To_Buy_And_Sell_Stock_II/122_Best_Time_To_Buy_And_Sell_Stock_II.cpp) | 1. DP <br> 2. 逐步更新收益 |
@@ -148,7 +149,8 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 | 53_02 0..N-1中确实的数字 |268 [Missing Number](https://leetcode-cn.com/problems/missing-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/268_Missing_Number/268_Missing_Number.cpp) |
 | 53_03 数组中数值和下标相等的元素 || 二分查找，[官方题解](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/53_03_IntegerIdenticalToIndex/IntegerIdenticalToIndex.cpp)|
 | 54 二叉搜索树的第k大节点|230 [Kth Smallest Element In A Bst](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Kth_Smallest_Element_In_A_Bst/230_Kth_Smallest_Element_In_A_Bst.cpp) |
-| 55 二叉树的深度|104 [Maximum Depth Of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/104_Maximum_Depth_Of_Binary_Tree/104_Maximum_Depth_Of_Binary_Tree.cpp) |
+| 55_01 二叉树的深度|104 [Maximum Depth Of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/104_Maximum_Depth_Of_Binary_Tree/104_Maximum_Depth_Of_Binary_Tree.cpp) |
+| 55_02 平衡二叉树 | 110 [Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.cpp) |
 | 56_00 56题的前置 数组中只出现1次的那个数字| 136 [Single Number](https://leetcode-cn.com/problems/single-number/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/136_Single_Number/136_Single_Number.cpp)  XOR for every single number|
 | 56_01 数组中只出现1次的2个数字 |260 [Single Number III](https://leetcode-cn.com/problems/single-number-iii/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/230_Single_Number_III/230_Single_Number_III.cpp) 1. XOR. 2. Split to two subarray.  3. XOR for two subarray, resepctively.
 | 56_02 其他数字都出现三次的数字中唯一只出现一次的数字 | 137 [Single Number II](https://leetcode-cn.com/problems/single-number-ii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/137_Single_Number_II/137_Single_Number_II.cpp) SUM all and mod 3 for every single bit|
@@ -174,6 +176,7 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 以 VS Code + Markdown Perview Enhanced 打开会更好。
 
 # Leetcode Other
-|Problem|Solution|
-|---|---|
+|Problem|Solution| Comment|
+|---|---|---|
+| 110 [Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.cpp) | 1. 递归；简单，但最差时间复杂度O(n^2)  <br> 2. 自底向上，比较左右子结点的深度，若相差<=1，则返回更大的那个深度，否则返回-1
 | 203 [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/203_Remove_Linked_List_Elements/203_Remove_Linked_List_Elements.cpp)
