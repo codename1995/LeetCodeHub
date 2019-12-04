@@ -13,8 +13,8 @@
 #   230_Kth_Smallest_Element_In_A_Bst
 #
 
-idx = input("Please input the No. of problem:")
-hyperlink = input("Please input the hyperlink:")
+idx = input("Please input the No. of problem:").strip()
+hyperlink = input("Please input the hyperlink:").strip()
 # idx = 230
 # hyperlink = "https://leetcode-cn.com/problems/single-number-iii/"
 Problem_name = hyperlink.split('/')[4]
