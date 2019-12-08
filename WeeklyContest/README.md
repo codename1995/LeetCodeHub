@@ -3,6 +3,7 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2019/12/08| [WC166](https://leetcode-cn.com/contest/weekly-contest-166/) | 这次懒得贴了
 |2019/12/01| WC165 |[找出井字棋的获胜者 Find Winner on a Tic Tac Toe Game](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) | E | 模拟法，没啥价值，不贴了 |
 |||[不浪费原料的汉堡制作方案 Number of Bugers with no Waste of Ingredients](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | M | 鸡兔同笼问题，没啥价值，不贴了 |
 |||[统计全为1的正方形子矩阵 Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| M | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_03_Count_Square_Submatrices_With_All_Ones/WC165_03_Count_Square_Submatrices_With_All_Ones.cpp)
@@ -19,6 +20,12 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+#### WC166
+前两题直接AC了，并且思路和晒出来的思路基本一致，就略了
+第三题，TLE了，看了别人的提示，用二分法错了五次才过。
+**重点：单调函数考虑二分法！！**
+第四题，由于格子数少，可以暴力做。
 
 #### WC165
 希望以后都能保三冲四！
@@ -81,6 +88,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC166 |452/1675  |27.0%|
 |WC165 |312/1659  |18.8%|
 |WC164 |145/1674  |**8.7%**|
 |WC163 |1500/1604 |93.5%|
