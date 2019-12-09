@@ -4,7 +4,7 @@ LeetCode solution (C++ and Python)
 
 - [LeetCodeHub](#leetcodehub)
 - [TODO](#todo)
-- [Leetcode Hot & Top](#leetcode-hot--top)
+- [Leetcode Hot &amp; Top](#leetcode-hot-amp-top)
 - [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
 - [Tag](#tag)
 - [Leetcode Other](#leetcode-other)
@@ -73,9 +73,12 @@ LeetCode solution (C++ and Python)
 322 [Coin Change](https://leetcode-cn.com/problems/coin-change/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/322_Coin_Change/322_Coin_Change.cpp) | 1. DP (Bottom-Up)|
 337 [House Robber III](https://leetcode-cn.com/problems/house-robber-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/337_House_Robber_III/337_House_Robber_III.cpp) | 1. 树型DP，子函数返回{MaxWithCurrNode, MaxWithoutCurrNode} |
 338 [Counting_Bits](https://leetcode-cn.com/problems/counting-bits/)|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/338_Counting_Bits/338_Counting_Bits.cpp)| 1. 偶数的1的个数与其一半有关，奇数的1的个数与前一个数有关
+340 [Longest Substring With At Most K Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/340_Longest_Substring_With_At_Most_K_Distinct_Characters/340_Longest_Substring_With_At_Most_K_Distinct_Characters.cpp) | 滑动窗+哈希表（当前子串中各字符的数量）+标识符（存当前子串中有几个不同字符）
 343 [Interger Break](https://leetcode-cn.com/problems/integer-break/)   | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/cpp/343_Interger_Break/343_Interger_Break.cpp)  | 1. 穷举找规律，发现4及以下单独处理，4以上不停地分出3 |
+(Primer) 348 [Design Tic Tac Toe](https://leetcode-cn.com/problems/design-tic-tac-toe/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/348_Design_Tic_Tac_Toe/348_Design_Tic_Tac_Toe.cpp) | 空间换时间，维护每行每列的和，落子时以正负1更新，再检查即可
 437 [Path Sum III](https://leetcode-cn.com/problems/path-sum-iii/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/437_Path_Sum_III/437_Path_Sum_III.cpp) | 1. 队列+DFS，以每个结点为根DFS，注意：值可能为负，因此搜索时直到叶结点再返回
 461 [Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/461_Hamming_Distance/461_Hamming_Distance.cpp) | 1. 位操作，注意不要越界
+543 [Diameter Of Binary Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/543_Diameter_Of_Binary_Tree/543_Diameter_Of_Binary_Tree.cpp) | 递归DFS，返回{过该根节点的最大边数（即最大深度），跨该根节点的最大边数}
 617 [Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/617_Merge_Two_Binary_Trees/617_Merge_Two_Binary_Trees.cpp) | 1.递归很简单
 647 [Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/ ) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/647_Palindromic_Substrings/647_Palindromic_Substrings.cpp) | 1. 结合中心展开思想，分别以单中心和双中心展开即可
 
@@ -146,8 +149,8 @@ Most of leetcode links are based on @yanring's [REPO](https://gist.github.com/ya
 ||340 [Longest Substring With At Most K Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/340_Longest_Substring_With_At_Most_K_Distinct_Characters/340_Longest_Substring_With_At_Most_K_Distinct_Characters.cpp) |
 | 49 丑数| 263 [Ugly Number](https://leetcode-cn.com/problems/ugly-number/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/263_Ugly_Number/263_Ugly_Number.cpp)|
 | |264 [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/)|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/264_Ugly_Number_II/264_Ugly_Number_II.cpp)|
-| 50 第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/387_First_Unique_Character_in_A_String/387_First_Unique_Character_in_A_String.cpp) |
-|50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
+| 50_01 字符串中第一个只出现一次的字符| 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/387_First_Unique_Character_in_A_String/387_First_Unique_Character_in_A_String.cpp) |
+| 50_02 字符流中第一个只出现一次的字符|| 剑指50和LC340的集合，过于简单，略（~~其实是因为LC上没找到~~）|
 | 51 求数组中的逆序对的总数||与LC493思路基本一致|
 || (Advanced) 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/493_Reverse_Pairs/493_Reverse_Pairs.cpp) |
 ||(Advanced Advanced) 315 [Count of Smaller Numbers after Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)|[C++] <!--(https://github.com/codename1995/leetcodehub/blob/master/cpp/315_Count_Of_Smaller_Numbers_After_Self/Count_Of_Smaller_Numbers_After_Self.cpp) -->|
