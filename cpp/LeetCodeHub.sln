@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeHub", "LeetCodeHub\LeetCodeHub.vcxproj", "{7E81BD87-6DB4-4787-A450-63639EDBA81D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "65_Valid_Number", "65_Valid_Number\65_Valid_Number.vcxproj", "{88BEA9D3-2E02-4B2A-89C8-BFD532250F50}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "065_Valid_Number", "65_Valid_Number\65_Valid_Number.vcxproj", "{88BEA9D3-2E02-4B2A-89C8-BFD532250F50}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utilities", "Utilities\Utilities.vcxproj", "{8271297F-D9B9-4338-BC34-ED40305C3520}"
 EndProject
@@ -19,7 +19,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "105_Construct_Binary_Tree_f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "510_Inorder_Successor_in_BST_II", "510_Inorder_Successor_in_BST_II\510_Inorder_Successor_in_BST_II.vcxproj", "{D48B9EF3-98A5-4EF3-9FF0-D163A282C1BD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50_Pow", "50_Pow\50_Pow.vcxproj", "{C45491DC-F5AE-4F11-969B-AA9EAAC8AA47}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "050_Pow", "50_Pow\50_Pow.vcxproj", "{C45491DC-F5AE-4F11-969B-AA9EAAC8AA47}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "237_Delete_Node_in_a_Linked_List", "237_Delete_Node_in_a_Linked_List\237_Delete_Node_in_a_Linked_List.vcxproj", "{D634A083-C204-495D-8EA2-DAF3738C9595}"
 EndProject
@@ -27,9 +27,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "203_Remove_Linked_List_Elem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coding_interview_05_ReplaceSpace", "coding_interview_05_ReplaceSpace\coding_interview_05_ReplaceSpace.vcxproj", "{3BEFC82F-FB4E-45E9-8D53-42F89BF81272}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "83_Remove_Duplicates_from_Sorted_List", "83_Remove_Duplicates_from_Sorted_List\83_Remove_Duplicates_from_Sorted_List.vcxproj", "{212107B3-7A53-41BF-B90E-7C6478CDD324}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "083_Remove_Duplicates_from_Sorted_List", "83_Remove_Duplicates_from_Sorted_List\83_Remove_Duplicates_from_Sorted_List.vcxproj", "{212107B3-7A53-41BF-B90E-7C6478CDD324}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_Regular_Expression_Matching", "10_Regular_Expression_Matching\10_Regular_Expression_Matching.vcxproj", "{D89E5308-0649-49B3-8539-FF461C421D45}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010_Regular_Expression_Matching", "10_Regular_Expression_Matching\10_Regular_Expression_Matching.vcxproj", "{D89E5308-0649-49B3-8539-FF461C421D45}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "232_Implement_Queue_using_Stacks", "232_Implement_Queue_using_Stacks\232_Implement_Queue_using_Stacks.vcxproj", "{F70BB7A9-C95C-462D-BD07-165F9C7D24BD}"
 EndProject
@@ -39,7 +39,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "509_Fibonacci_Number", "509
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "153_Find_Minimum_in_Rotated_Sorted_Array", "153_Find_Minimum_in_Rotated_Sorted_Array\153_Find_Minimum_in_Rotated_Sorted_Array.vcxproj", "{46E3636E-207C-4195-AF7B-10ED4CB67A05}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "79_Word_Search", "79_Word_Search\79_Word_Search.vcxproj", "{69F70DF6-5F12-414E-953F-C2DE969EAF30}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "079_Word_Search", "79_Word_Search\79_Word_Search.vcxproj", "{69F70DF6-5F12-414E-953F-C2DE969EAF30}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "343_Interger_Break", "343_Interger_Break\343_Interger_Break.vcxproj", "{B6E91DFC-347D-47DF-A93E-7F0AFB1F20EB}"
 EndProject
@@ -49,11 +49,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "338_Counting_Bits", "338_Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "905_Sort_Array_by_Parity", "905_Sort_Array_by_Parity\905_Sort_Array_by_Parity.vcxproj", "{54815410-4E96-482C-9A8D-508B828A5F1D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_Remove_Nth_Node_from_End_of_List", "19_Remove_Nth_Node_from_End_of_List\19_Remove_Nth_Node_from_End_of_List.vcxproj", "{499AF3DA-D0C7-4CC7-BD04-A9FD382C3A64}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "019_Remove_Nth_Node_from_End_of_List", "19_Remove_Nth_Node_from_End_of_List\19_Remove_Nth_Node_from_End_of_List.vcxproj", "{499AF3DA-D0C7-4CC7-BD04-A9FD382C3A64}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142_Linked_List_Cycle_II", "142_Linked_List_Cycle_II\142_Linked_List_Cycle_II.vcxproj", "{FD6BE960-90EC-4DE5-82CF-1D80EF36CCAF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_Merge_Two_Sorted_Lists", "21_Merge_Two_Sorted_Lists\21_Merge_Two_Sorted_Lists.vcxproj", "{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "021_Merge_Two_Sorted_Lists", "21_Merge_Two_Sorted_Lists\21_Merge_Two_Sorted_Lists.vcxproj", "{A0AC89DC-1151-4BED-AA7B-848A2BA21CF0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "102_Binary_Tree_Level_Order_Traversal", "102_Binary_Tree_Level_Order_Traversal\102_Binary_Tree_Level_Order_Traversal.vcxproj", "{CFB995BB-4ED3-4903-89BA-E77C4E54E9B5}"
 EndProject
@@ -63,7 +63,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "226_Invert_Binary_Tree", "2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "101_Symmetric_Tree", "101_Symmetric_Tree\101_Symmetric_Tree.vcxproj", "{1F81D09D-8050-457F-9E74-08F4F68F64B5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "54_Spiral_Matrix", "54_Spiral_Matrix\54_Spiral_Matrix.vcxproj", "{2EC7E743-27ED-4FAA-BCC8-43F08291FD2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "054_Spiral_Matrix", "54_Spiral_Matrix\54_Spiral_Matrix.vcxproj", "{2EC7E743-27ED-4FAA-BCC8-43F08291FD2E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "155_Min_Stack", "155_Min_Stack\155_Min_Stack.vcxproj", "{CB73A3ED-A8C1-49ED-B65D-0E5E3459AE84}"
 EndProject
@@ -83,15 +83,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "426_Convert_Binary_Search_T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "297_Serialize_and_Deserialize_Binary_Tree", "297_Serialize_and_Deserialize_Binary_Tree\297_Serialize_and_Deserialize_Binary_Tree.vcxproj", "{4A92CD4D-EB5F-417C-91BD-6B807AF149D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_Permutations", "46_Permutations\46_Permutations.vcxproj", "{9BBF73EC-49FC-46A9-9A0D-912DB7432FE9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "046_Permutations", "46_Permutations\46_Permutations.vcxproj", "{9BBF73EC-49FC-46A9-9A0D-912DB7432FE9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_Permutations_II", "47_Permutations_II\47_Permutations_II.vcxproj", "{D9F1AD47-7991-41AC-B405-CACB2C74A448}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "047_Permutations_II", "47_Permutations_II\47_Permutations_II.vcxproj", "{D9F1AD47-7991-41AC-B405-CACB2C74A448}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "263_Ugly_Number", "263_Ugly_Number\263_Ugly_Number.vcxproj", "{EA3F1F0C-9044-45D0-87C1-3297B58DE727}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "264_Ugly_Number_II", "264_Ugly_Number_II\264_Ugly_Number_II.vcxproj", "{81C7440A-77CA-45A1-A42C-0819C8993E31}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_Maximum_Subarray", "53_Maximum_Subarray\53_Maximum_Subarray.vcxproj", "{747FC47A-9363-4AD0-854F-E9BE0640AF15}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "053_Maximum_Subarray", "53_Maximum_Subarray\53_Maximum_Subarray.vcxproj", "{747FC47A-9363-4AD0-854F-E9BE0640AF15}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "215_Kth_Largest_Element_In_An_Array", "215_Kth_Largest_Element_In_An_Array\215_Kth_Largest_Element_In_An_Array.vcxproj", "{439D4AFE-CE85-45BF-904F-81321769731F}"
 EndProject
@@ -103,9 +103,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "400_Nth_Digit", "400_Nth_Di
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "179_Largest_Number", "179_Largest_Number\179_Largest_Number.vcxproj", "{B9015325-B8A0-4ADC-BE68-B689EDB06D38}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "91_Decode_Ways", "91_Decode_Ways\91_Decode_Ways.vcxproj", "{E6069988-FAD4-4E35-BFC0-DCB90BAD2911}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "091_Decode_Ways", "91_Decode_Ways\91_Decode_Ways.vcxproj", "{E6069988-FAD4-4E35-BFC0-DCB90BAD2911}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Longest_Substring_Without_Repeating_Characters", "3_Longest_Substring_Without_Repeating_Characters\3_Longest_Substring_Without_Repeating_Characters.vcxproj", "{6102C4F2-D1B3-4D81-8559-4109FA31FE2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003_Longest_Substring_Without_Repeating_Characters", "3_Longest_Substring_Without_Repeating_Characters\3_Longest_Substring_Without_Repeating_Characters.vcxproj", "{6102C4F2-D1B3-4D81-8559-4109FA31FE2D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "159_Longest_Substring_With_At_Most_Two_Distinct_Characters", "159_Longest_Substring_With_At_Most_Two_Distinct_Characters\159_Longest_Substring_With_At_Most_Two_Distinct_Characters.vcxproj", "{10F269F6-3FF8-4B32-922E-3A4CF51CC77C}"
 EndProject
@@ -119,7 +119,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "493_Reverse_Pairs", "493_Re
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "160_Intersection_Of_Two_Linked_Lists", "160_Intersection_Of_Two_Linked_Lists\160_Intersection_Of_Two_Linked_Lists.vcxproj", "{C7ADC744-F13E-4A4A-B681-D7BF9F57384A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array", "34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array\34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.vcxproj", "{D79CD1EB-65C4-425E-8127-5256DE973884}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "034_Find_First_And_Last_Position_Of_Element_In_Sorted_Array", "34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array\34_Find_First_And_Last_Position_Of_Element_In_Sorted_Array.vcxproj", "{D79CD1EB-65C4-425E-8127-5256DE973884}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "230_Kth_Smallest_Element_In_A_BST", "230_Kth_Smallest_Element_In_A_Bst\230_Kth_Smallest_Element_In_A_Bst.vcxproj", "{67E3B7BE-9A2F-4B09-98D2-8F115F4CA5C1}"
 EndProject
@@ -131,7 +131,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "260_Single_Number_III", "26
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "136_Single_Number", "136_Single_Number\136_Single_Number.vcxproj", "{DC909073-2FA0-456C-83B2-09FB365236F6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Two_Sum", "1_Two_Sum\1_Two_Sum.vcxproj", "{8A49B41E-792A-41A1-8893-ACE25D62CA01}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_Two_Sum", "1_Two_Sum\1_Two_Sum.vcxproj", "{8A49B41E-792A-41A1-8893-ACE25D62CA01}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "829_Consecutive_Numbers_Sum", "829_Consecutive_Numbers_Sum\829_Consecutive_Numbers_Sum.vcxproj", "{5CFD8305-C9F2-4393-A02D-E142A91013D7}"
 EndProject
@@ -151,15 +151,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coding_interview_65_Add", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coding_interview_66_ConstructArray", "coding_interview_66_ConstructArray\coding_interview_66_ConstructArray.vcxproj", "{DEA9048D-AEF0-4A1C-9F2E-F28D1EAFDAC1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "64_Minimum_Path_Sum", "64_Minimum_Path_Sum\64_Minimum_Path_Sum.vcxproj", "{EE93D9D0-C519-4873-9604-7319C486A3A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "064_Minimum_Path_Sum", "64_Minimum_Path_Sum\64_Minimum_Path_Sum.vcxproj", "{EE93D9D0-C519-4873-9604-7319C486A3A4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "337_House_Robber_III", "337_House_Robber_III\337_House_Robber_III.vcxproj", "{6B47A98C-7900-4192-9701-42A09F9CA9FF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_Longest_Palindromic_Substring", "5_Longest_Palindromic_Substring\5_Longest_Palindromic_Substring.vcxproj", "{2352618F-5F47-4CEA-BB5C-D27AAA8206D7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "005_Longest_Palindromic_Substring", "5_Longest_Palindromic_Substring\5_Longest_Palindromic_Substring.vcxproj", "{2352618F-5F47-4CEA-BB5C-D27AAA8206D7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "322_Coin_Change", "322_Coin_Change\322_Coin_Change.vcxproj", "{633B2739-146D-4B16-816B-C56E2FA0A780}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "70_Climbing_Stairs", "70_Climbing_Stairs\70_Climbing_Stairs.vcxproj", "{FFE15005-29BB-44B7-8744-DE8F2AB94CC6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "070_Climbing_Stairs", "70_Climbing_Stairs\70_Climbing_Stairs.vcxproj", "{FFE15005-29BB-44B7-8744-DE8F2AB94CC6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "300_Longest_Increasing_Subsequence", "300_Longest_Increasing_Subsequence\300_Longest_Increasing_Subsequence.vcxproj", "{A709F7B7-0D3B-4FDA-9770-C6679C8B4933}"
 EndProject
@@ -200,6 +200,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "647_Palindromic_Substrings", "647_Palindromic_Substrings\647_Palindromic_Substrings.vcxproj", "{38931073-CF8F-4498-A135-FC4DF972721F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "437_Path_Sum_III", "437_Path_Sum_III\437_Path_Sum_III.vcxproj", "{4CC39F53-518D-43A8-99E1-F9105067A375}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "110_Balanced_Binary_Tree", "110_Balanced_Binary_Tree\110_Balanced_Binary_Tree.vcxproj", "{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002_Add_Two_Numbers", "002_Add_Two_Numbers\002_Add_Two_Numbers.vcxproj", "{0222E4C8-9505-4992-BB2D-FD4A7D352C21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028_Implement_Strstr", "028_Implement_Strstr\028_Implement_Strstr.vcxproj", "{163793D6-481C-406D-B67A-75D207B9545F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "348_Design_Tic_Tac_Toe", "348_Design_Tic_Tac_Toe\348_Design_Tic_Tac_Toe.vcxproj", "{23263271-59BE-46D1-9387-269DBC5AB09E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "543_Diameter_Of_Binary_Tree", "543_Diameter_Of_Binary_Tree\543_Diameter_Of_Binary_Tree.vcxproj", "{4F687173-5E2D-4884-95BD-9FB39A25CC28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1001,6 +1011,46 @@ Global
 		{4CC39F53-518D-43A8-99E1-F9105067A375}.Release|x64.Build.0 = Release|x64
 		{4CC39F53-518D-43A8-99E1-F9105067A375}.Release|x86.ActiveCfg = Release|Win32
 		{4CC39F53-518D-43A8-99E1-F9105067A375}.Release|x86.Build.0 = Release|Win32
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Debug|x64.ActiveCfg = Debug|x64
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Debug|x64.Build.0 = Debug|x64
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Debug|x86.Build.0 = Debug|Win32
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Release|x64.ActiveCfg = Release|x64
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Release|x64.Build.0 = Release|x64
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Release|x86.ActiveCfg = Release|Win32
+		{CC1FDB30-1373-47F5-9247-0EEB69A3E9FC}.Release|x86.Build.0 = Release|Win32
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Debug|x64.ActiveCfg = Debug|x64
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Debug|x64.Build.0 = Debug|x64
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Debug|x86.ActiveCfg = Debug|Win32
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Debug|x86.Build.0 = Debug|Win32
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Release|x64.ActiveCfg = Release|x64
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Release|x64.Build.0 = Release|x64
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Release|x86.ActiveCfg = Release|Win32
+		{0222E4C8-9505-4992-BB2D-FD4A7D352C21}.Release|x86.Build.0 = Release|Win32
+		{163793D6-481C-406D-B67A-75D207B9545F}.Debug|x64.ActiveCfg = Debug|x64
+		{163793D6-481C-406D-B67A-75D207B9545F}.Debug|x64.Build.0 = Debug|x64
+		{163793D6-481C-406D-B67A-75D207B9545F}.Debug|x86.ActiveCfg = Debug|Win32
+		{163793D6-481C-406D-B67A-75D207B9545F}.Debug|x86.Build.0 = Debug|Win32
+		{163793D6-481C-406D-B67A-75D207B9545F}.Release|x64.ActiveCfg = Release|x64
+		{163793D6-481C-406D-B67A-75D207B9545F}.Release|x64.Build.0 = Release|x64
+		{163793D6-481C-406D-B67A-75D207B9545F}.Release|x86.ActiveCfg = Release|Win32
+		{163793D6-481C-406D-B67A-75D207B9545F}.Release|x86.Build.0 = Release|Win32
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Debug|x64.ActiveCfg = Debug|x64
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Debug|x64.Build.0 = Debug|x64
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Debug|x86.ActiveCfg = Debug|Win32
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Debug|x86.Build.0 = Debug|Win32
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Release|x64.ActiveCfg = Release|x64
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Release|x64.Build.0 = Release|x64
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Release|x86.ActiveCfg = Release|Win32
+		{23263271-59BE-46D1-9387-269DBC5AB09E}.Release|x86.Build.0 = Release|Win32
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Debug|x64.ActiveCfg = Debug|x64
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Debug|x64.Build.0 = Debug|x64
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Debug|x86.Build.0 = Debug|Win32
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Release|x64.ActiveCfg = Release|x64
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Release|x64.Build.0 = Release|x64
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Release|x86.ActiveCfg = Release|Win32
+		{4F687173-5E2D-4884-95BD-9FB39A25CC28}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
