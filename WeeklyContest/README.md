@@ -3,6 +3,8 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2019/12/15| [WC167](https://leetcode-cn.com/contest/weekly-contest-167/) | 这次也懒得贴了
+|||[网格中的最短路径 Shortest Path in a Grid with Obstacles Elimination](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | H| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination.cpp) DP+BFS|
 |2019/12/08| [WC166](https://leetcode-cn.com/contest/weekly-contest-166/) | 这次懒得贴了
 |2019/12/01| WC165 |[找出井字棋的获胜者 Find Winner on a Tic Tac Toe Game](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) | E | 模拟法，没啥价值，不贴了 |
 |||[不浪费原料的汉堡制作方案 Number of Bugers with no Waste of Ingredients](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | M | 鸡兔同笼问题，没啥价值，不贴了 |
@@ -21,6 +23,18 @@
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
 
+#### WC167
+前两题16分钟AC，然而第一名已经通关了。。。
+这不重要！
+第三题在第60分钟做完，现在基本稳定输出三题了！
+**第四题**比较难，赛后又花了一个半小时。一开始写的DFS超时，这题还是得用BFS+不完全DP。
+* `[r,c,z]`入队，分别表示横纵坐标和当前经过障碍
+* `[r,c,z]`出队时，判断它四邻域是否需要更新，判断条件为：1）不越界；2）不超出可消除障碍数`k`；3）更新后值更小
+* 若需要更新，则新点入队
+* 最后在dp[m-1][n-1][0...k]中找最小值
+
+**递推公式：** dp[r][c][k] = min(dp[四邻域][k]+1) if g[r][c]==0 else min(dp[四邻域][k-1]+1)
+这是超级大佬@liaozhou_101 的解法，解读之后觉得非常精妙，不知道自己能不能举一反三。
 #### WC166
 前两题直接AC了，并且思路和晒出来的思路基本一致，就略了
 第三题，TLE了，看了别人的提示，用二分法错了五次才过。

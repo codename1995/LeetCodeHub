@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WC165_03_Count_Square_Subma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WC165_04 _Palindrome_Partitioning_III", "..\WC165_04 _Palindrome_Partitioning_III\WC165_04 _Palindrome_Partitioning_III.vcxproj", "{F5542F4B-E6D2-47CE-8BA8-FDD59BCD9A4C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination", "..\WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination\WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination.vcxproj", "{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{F5542F4B-E6D2-47CE-8BA8-FDD59BCD9A4C}.Release|x64.Build.0 = Release|x64
 		{F5542F4B-E6D2-47CE-8BA8-FDD59BCD9A4C}.Release|x86.ActiveCfg = Release|Win32
 		{F5542F4B-E6D2-47CE-8BA8-FDD59BCD9A4C}.Release|x86.Build.0 = Release|Win32
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Debug|x64.ActiveCfg = Debug|x64
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Debug|x64.Build.0 = Debug|x64
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Debug|x86.Build.0 = Debug|Win32
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Release|x64.ActiveCfg = Release|x64
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Release|x64.Build.0 = Release|x64
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Release|x86.ActiveCfg = Release|Win32
+		{CF5197DB-4EFE-4AB7-B676-28D78A8E696F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
