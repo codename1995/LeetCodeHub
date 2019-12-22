@@ -3,13 +3,15 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2019/12/22| [WC168](https://leetcode-cn.com/contest/weekly-contest-168)| 这次依旧懒得贴 |||
+||WC168_04| [你能从盒子里获得的最大糖果数 Maximum Candies You Can Get From Boxes](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes.cpp) |
 |2019/12/15| [WC167](https://leetcode-cn.com/contest/weekly-contest-167/) | 这次也懒得贴了
-|||[网格中的最短路径 Shortest Path in a Grid with Obstacles Elimination](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | H| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination.cpp) DP+BFS|
+||WC167_04|[网格中的最短路径 Shortest Path in a Grid with Obstacles Elimination](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination/WC167_04_Shortest_Path_In_A_Grid_With_Obstacles_Elimination.cpp) DP+BFS|
 |2019/12/08| [WC166](https://leetcode-cn.com/contest/weekly-contest-166/) | 这次懒得贴了
 |2019/12/01| WC165 |[找出井字棋的获胜者 Find Winner on a Tic Tac Toe Game](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) | E | 模拟法，没啥价值，不贴了 |
 |||[不浪费原料的汉堡制作方案 Number of Bugers with no Waste of Ingredients](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | M | 鸡兔同笼问题，没啥价值，不贴了 |
 |||[统计全为1的正方形子矩阵 Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| M | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_03_Count_Square_Submatrices_With_All_Ones/WC165_03_Count_Square_Submatrices_With_All_Ones.cpp)
-|||[分割回文串 III Palindrome Partitioning III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/) | H | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_04%20_Palindrome_Partitioning_III/WC165_04%20_Palindrome_Partitioning_III.cpp)
+|||[分割回文串 III Palindrome Partitioning III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/) | H | [C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC165_04_Palindrome_Partitioning_III/WC165_04_Palindrome_Partitioning_III.cpp)
 |2019/11/24| WC164 |[访问所有点的最小时间 Minimum Time Visiting All Points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) |E|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_01_Minimum_Time_Visiting_All_Points.py)|
 |||[统计参与通信的服务器 Count Servers That Communicate](https://leetcode-cn.com/problems/count-servers-that-communicate/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC164_02_Count_Servers_That_Communicate/WC164_02_Count_Servers_That_Communicate.cpp)|
 |||[搜索推荐系统 Search Suggestions System](https://leetcode-cn.com/problems/search-suggestions-system/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC164_03_Search_Suggestions_System.py)|
@@ -22,6 +24,15 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+#### WC168
+第一题秒。
+第二题python超时，但是C++的map用的很**不熟练**
+第三题没做
+第四题是模拟解法，花点时间就能做出来，但是第二题耽误了太多时间，第四题debug的时间不足。到本地IDE后发现，只是一处判断条件出现了笔误。简单但致命。
+**想要避免这类问题的重演，应该**
+* 强化人脑debug
+* 搭建一个类似Leetcode输入的本地测试框架
 
 #### WC167
 前两题16分钟AC，然而第一名已经通关了。。。
@@ -102,6 +113,8 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC168 |571/1551  |36.8%|
+|WC167 |220/1534  |14.3%|
 |WC166 |452/1675  |27.0%|
 |WC165 |312/1659  |18.8%|
 |WC164 |145/1674  |**8.7%**|
