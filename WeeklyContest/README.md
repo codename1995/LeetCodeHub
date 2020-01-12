@@ -3,6 +3,8 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2020/01/12| [WC171](https://leetcode-cn.com/contest/weekly-contest-171)| 这次依旧懒得贴 |||
+||WC171_03 | [Number Of Operations To Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | M |[Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC171_03_Number_Of_Operations_To_Make_Network_Connected.py)|
 |2019/12/22| [WC168](https://leetcode-cn.com/contest/weekly-contest-168)| 这次依旧懒得贴 |||
 ||WC168_04| [你能从盒子里获得的最大糖果数 Maximum Candies You Can Get From Boxes](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes.cpp) |
 |2019/12/15| [WC167](https://leetcode-cn.com/contest/weekly-contest-167/) | 这次也懒得贴了
@@ -24,6 +26,22 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+#### WC171
+基本上，做出两题就是前1/3的位置
+第一题，将整数转换为两个无零整数的和
+* 按位遍历，求第一个整数对应位，并且以第二个整数该位不为零为约束
+  * 该位为零，则分配1，且高位退位
+  * 该位位一，则分配2（若分配1，则第二个整数有零了），且高位退位
+  * 其他，则分配1
+* 最终返回第一个整数，与输入数减第一个整数
+
+第二题 或运算的最小翻转次数
+逐位运算，注意条件清晰即可
+
+第三题 连通网络的操作次数
+涉及并查集的初始化，插入新的并查集，合并并查集，更新指定并查集等操作
+
 
 #### WC168
 第一题秒。
@@ -113,6 +131,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC171 |617/1707  |36.1%|
 |WC168 |571/1551  |36.8%|
 |WC167 |220/1534  |14.3%|
 |WC166 |452/1675  |27.0%|
