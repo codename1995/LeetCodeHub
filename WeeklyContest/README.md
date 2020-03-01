@@ -3,9 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
-|2020/03/01| WC178_01 |[How Many Numbers Are Smaller Than The Current Number](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |E| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.cpp) </br>解法1：暴力双层循环</br>解法2：先建积分表，再查询生成答案 |
-||WC178_02 | [Rank Teams By Votes](https://leetcode-cn.com/problems/rank-teams-by-votes/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_02_Rank_Teams_By_Votes/WC178_02_Rank_Teams_By_Votes.cpp) |
-||WC178_03 |[Linked List In Binary Tree](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | M|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_03_Linked_List_In_Binary_Tree/WC178_03_Linked_List_In_Binary_Tree.cpp) |
+|2020/03/01| WC178_01 |[How Many Numbers Are Smaller Than The Current Number](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |E| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.cpp) </br>解法1：暴力双层循环</br>解法2：先建积分表，再查询生成答案 |
+||WC178_02 | [Rank Teams By Votes](https://leetcode-cn.com/problems/rank-teams-by-votes/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_02_Rank_Teams_By_Votes/WC178_02_Rank_Teams_By_Votes.cpp) |
+||WC178_03 |[Linked List In Binary Tree](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | M|[C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_03_Linked_List_In_Binary_Tree/WC178_03_Linked_List_In_Binary_Tree.cpp) |
 ||WC178_04| 没看
 |2020/01/12| [WC171](https://leetcode-cn.com/contest/weekly-contest-171)| 这次还是懒得贴 |||
 ||WC171_03 | [Number Of Operations To Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | M |[Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC171_03_Number_Of_Operations_To_Make_Network_Connected.py)|
