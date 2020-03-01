@@ -3,7 +3,11 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
-|2020/01/12| [WC171](https://leetcode-cn.com/contest/weekly-contest-171)| 这次依旧懒得贴 |||
+|2020/03/01| WC178_01 |[How Many Numbers Are Smaller Than The Current Number](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |E| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.cpp) </br>解法1：暴力双层循环</br>解法2：先建积分表，再查询生成答案 |
+||WC178_02 | [Rank Teams By Votes](https://leetcode-cn.com/problems/rank-teams-by-votes/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_02_Rank_Teams_By_Votes/WC178_02_Rank_Teams_By_Votes.cpp) |
+||WC178_03 |[Linked List In Binary Tree](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | M|[C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC178_03_Linked_List_In_Binary_Tree/WC178_03_Linked_List_In_Binary_Tree.cpp) |
+||WC178_04| 没看
+|2020/01/12| [WC171](https://leetcode-cn.com/contest/weekly-contest-171)| 这次还是懒得贴 |||
 ||WC171_03 | [Number Of Operations To Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | M |[Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC171_03_Number_Of_Operations_To_Make_Network_Connected.py)|
 |2019/12/22| [WC168](https://leetcode-cn.com/contest/weekly-contest-168)| 这次依旧懒得贴 |||
 ||WC168_04| [你能从盒子里获得的最大糖果数 Maximum Candies You Can Get From Boxes](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes.cpp) |
@@ -27,6 +31,8 @@
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
 
+#### WC178
+第一题，教训是**能暴力求解就暴力求解**，因为暴力的思路很简单，能够快速做出来，在时间复杂度或空间复杂度有要求的情况下，再进一步优化。
 #### WC171
 基本上，做出两题就是前1/3的位置
 第一题，将整数转换为两个无零整数的和
@@ -116,7 +122,7 @@
 因此，递推式 **dp[i][x] = max(dp[i-1][x], dp[i-1][j]+nums[i-1]**
 
 **总结**
-经验教训就是一定不要贪多，循序渐进稳扎稳打，123题一道一道做。
+经验教训就是一定不要贪多，循序渐进稳扎稳打，**123题一道一道做**。
 
 #### WC162
 第一题和第二题直接模拟法，一开始还担心会有case过不了，后来发现想多了。  
@@ -131,6 +137,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC178 |597/3304  |17.7%|
 |WC171 |617/1707  |36.1%|
 |WC168 |571/1551  |36.8%|
 |WC167 |220/1534  |14.3%|
