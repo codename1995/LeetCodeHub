@@ -3,6 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2020/03/22| WC181_01| [Create Target Array In The Given Order](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/) |E| 关键语法：</br> PY: list.insert(ix,val)</br>CPP: v.insert(v.begin()+ix,val) |
+||WC181_02| [Four divisors](https://leetcode-cn.com/problems/four-divisors/) | M|暴力，代码太丑，不贴了|
+||WC181_03 |[Check If There Is A Valid Path In A Grid](https://leetcode-cn.com/contest/check-if-there-is-a-valid-path-in-a-grid/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC181_03_Check_If_There_Is_A_Valid_Path_In_A_Grid/WC181_03_Check_If_There_Is_A_Valid_Path_In_A_Grid.cpp)</br>s.substr(ix)返回索引ix至结尾的子字符串 |
 |2020/03/01| WC178_01 |[How Many Numbers Are Smaller Than The Current Number](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |E| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number/WC178_01_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.cpp) </br>解法1：暴力双层循环</br>解法2：先建积分表，再查询生成答案 |
 ||WC178_02 | [Rank Teams By Votes](https://leetcode-cn.com/problems/rank-teams-by-votes/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_02_Rank_Teams_By_Votes/WC178_02_Rank_Teams_By_Votes.cpp) |
 ||WC178_03 |[Linked List In Binary Tree](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | M|[C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_03_Linked_List_In_Binary_Tree/WC178_03_Linked_List_In_Binary_Tree.cpp) |
@@ -137,6 +140,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC181 |591/4148  |14.2%|
 |WC178 |597/3304  |17.7%|
 |WC171 |617/1707  |36.1%|
 |WC168 |571/1551  |36.8%|
