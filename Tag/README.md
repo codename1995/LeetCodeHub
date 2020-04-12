@@ -1,10 +1,22 @@
 # Abstract
-A summary for problems with different tag. Best viewed in VS Code with Markdown Perview Enhanced.
+A summary for problems with different tag. Best viewed in **VS Code** with the plugin **Markdown Perview Enhanced**.
 
 [TOC]
 
 # Math
 TBC
+# Normal Operation
+# MOD 1E9+7
+#### C++
+```cpp
+const int MOD = 1E9+7;
+int a,b;
+......
+c = (a+b)%MOD; // Whenever a varable may larger than 1E9+7, you should do MOD
+d = ()
+```
+#### Python
+Python doesn't need to consider this.
 # Data Structure
 ## Tree
 ### BFS&DFS

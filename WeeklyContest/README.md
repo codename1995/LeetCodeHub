@@ -3,6 +3,10 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2020/04/12|WC184|第二次全A，但是是因为题目比较简单|||
+||WC184_03|[HTML entity parser](https://leetcode-cn.com//problems/html-entity-parser/)|M|转义字符不熟悉|
+||WC184_04|[Number of ways to paint nx3 grid](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)|H|简单奥数题，属于想到很简单，想不到就做不来。稍微卡我的地方的大数操作又不记得了。
+|2020/03/29|WC182|前三题比较顺利，第四题太难，只有不到40人完成|
 |2020/03/22| WC181_01| [Create Target Array In The Given Order](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/) |E| 关键语法：</br> PY: list.insert(ix,val)</br>CPP: v.insert(v.begin()+ix,val) |
 ||WC181_02| [Four divisors](https://leetcode-cn.com/problems/four-divisors/) | M|暴力，代码太丑，不贴了|
 ||WC181_03 |[Check If There Is A Valid Path In A Grid](https://leetcode-cn.com/contest/check-if-there-is-a-valid-path-in-a-grid/) |M| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC181_03_Check_If_There_Is_A_Valid_Path_In_A_Grid/WC181_03_Check_If_There_Is_A_Valid_Path_In_A_Grid.cpp)</br>s.substr(ix)返回索引ix至结尾的子字符串 |
@@ -140,6 +144,8 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC184 |350/3846  |9.1%|
+|WC182 |735/3910  |18.8%|
 |WC181 |591/4148  |14.2%|
 |WC178 |597/3304  |17.7%|
 |WC171 |617/1707  |36.1%|
