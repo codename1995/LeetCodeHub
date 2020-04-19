@@ -3,7 +3,7 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
-|2020/04/19|WC185_04|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons.cpp) 三维动态规划|
+|2020/04/19|WC185_04|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons.cpp) 三维动态规划|
 |2020/04/12|WC184|第二次全A，但是是因为题目比较简单|||
 ||WC184_03|[HTML entity parser](https://leetcode-cn.com//problems/html-entity-parser/)|M|转义字符不熟悉|
 ||WC184_04|[Number of ways to paint nx3 grid](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)|H|简单奥数题，属于想到很简单，想不到就做不来。稍微卡我的地方的大数操作又不记得了。
