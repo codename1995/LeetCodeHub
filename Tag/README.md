@@ -6,7 +6,7 @@ A summary for problems with different tag. Best viewed in **VS Code** with the p
 # Math
 TBC
 # Normal Operation
-# MOD 1E9+7
+## MOD 1E9+7
 #### C++
 ```cpp
 const int MOD = 1E9+7;

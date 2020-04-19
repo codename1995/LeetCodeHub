@@ -3,6 +3,7 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2020/04/19|WC185_04|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/cpp/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons.cpp) 三维动态规划|
 |2020/04/12|WC184|第二次全A，但是是因为题目比较简单|||
 ||WC184_03|[HTML entity parser](https://leetcode-cn.com//problems/html-entity-parser/)|M|转义字符不熟悉|
 ||WC184_04|[Number of ways to paint nx3 grid](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)|H|简单奥数题，属于想到很简单，想不到就做不来。稍微卡我的地方的大数操作又不记得了。
@@ -37,6 +38,12 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+#### WC185
+好长时间不刷题，只做周赛，所以能力下降得很明显，主要是对C++和Python很多基础语法都不熟悉了。
+这次一三题20分钟，第二题题目太长懒得看，第四题做了两三个小时。
+第四题自己的代码（不保存了，真想看去LC提交记录里看吧）主要错在dp[h][v][c]的定义和递推式，我把v定义为第h个字符的取值，这是错误的，因为你没法确定之前值的最大值是多少，也就知道h处取v是否增大。
+合理的定义是dp[cur_length][cur_max_value][cost]，详细看代码吧。这题真的应该做出来的。
 
 #### WC178
 第一题，教训是**能暴力求解就暴力求解**，因为暴力的思路很简单，能够快速做出来，在时间复杂度或空间复杂度有要求的情况下，再进一步优化。
@@ -144,6 +151,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC185 |956/5001  |19.1%|
 |WC184 |350/3846  |9.1%|
 |WC182 |735/3910  |18.8%|
 |WC181 |591/4148  |14.2%|
