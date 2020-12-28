@@ -1,6 +1,33 @@
 [TOC]
+## List
+### Basic operation
+```python{.line-numbers}
+aList.append(obj)
+aList.clear()
+aList.count(obj)        # count the number of 'obj'
+aList.copy()            # shallow copy, namely it is just a pointer
+aList.extend(sequence)  # similar to 'append()', but append a sequence
+aList.index(obj)        # return the index of 'obj', or ValueError
+aList.insert(index, obj)# If index>=0, it is same as aList[index:index] = [obj]; otherwise
+                        # aList[0:0] = [obj], namely add obj to the start
+aList.pop([index])      # delete and return the the index-th element
+aList.remove(obj)       # == del aList[aList.index(obj)]
+aList.reverse()         # inplace, reverse the list
+aList.sort([cmp][,key][,reverse])   # sort the list (stably);
 
+```
 ## Dict
+### Basic operation
+```python{.line-numbers}
+aDict.clear()
+aDict.copy()
+aDict.get(key[,default])        # IMPORTANT, if 'key' exists then return it, otherwise return 'default'
+aDict.items()
+aDict.keys()
+aDict.values()
+aDict.pop(key[,d])              # delete and return the aDict[key], if key doesn't exist then return d
+```
+### Other useful operation
 #### Sort the dict
 ```python
 sorted(dict) # key, ascending order
