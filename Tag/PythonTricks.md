@@ -1,4 +1,32 @@
 [TOC]
+
+## Basic knowledge
+### Subfunction
+Two method to define a subfunction, especially in Leetcode
+```python
+# Method 1
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        ...
+        #########  start  ########### 
+        # all var in 'searchRange' and before the 'foo' can be directly used in 'foo'
+        def foo(a, b):
+            ...
+        ##########  end  ############ 
+
+# Method 2
+class Solution:
+    #########  start  ########### 
+    # only var that are sent into 'foo' can be used in 'foo'
+    def foo(self, a, b):
+        ...
+    ##########  end  ############ 
+
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        ...
+```
+
+
 ## List
 ### Basic operation
 ```python{.line-numbers}
