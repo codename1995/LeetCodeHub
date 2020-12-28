@@ -40,7 +40,7 @@ Find first target number and return its index.
 # INPUT:    nums: List[int], target: int
 # OUTPUT:   the position of first target number.
 def leftBound(nums, target):
-    # return the number of elements that less than target
+    # The eventual 'l' represent the number of elements that less than target
     l = 0
     r = len(nums) # right open interval
 
@@ -53,7 +53,7 @@ def leftBound(nums, target):
         elif (nums[m] > target):
             r = m
     
-    return l
+    return l        # ix == the number
     # Use following code to return -1 when target does NOT exist
     # if (l==len(nums)): return -1
     # return l if nums[l]==target else -1
@@ -65,7 +65,7 @@ Find last target number and return its index.
 # INPUT:    nums: List[int], target: int
 # OUTPUT:   the position of last target number.
 def rightBound(nums, target):
-    # return the number of elements that <= target
+    # The eventual 'l' represent the number of elements that <= target
     l = 0
     r = len(nums) # right open interval
 
@@ -78,10 +78,11 @@ def rightBound(nums, target):
         elif (nums[m] > target):
             r = m
     
-    return l-1         # left -1
+    return l-1         # ix == the number -1
     # Use following code to return -1 when target does NOT exist
     # if (l==0): return -1
     # return l-1 if nums[l-1]==target else -1
+    
 ```
 
 
