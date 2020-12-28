@@ -4,8 +4,8 @@ LeetCode solution (C++ and Python)
 
 - [LeetCodeHub](#leetcodehub)
 - [TODO](#todo)
-- [Leetcode Hot &amp; Top](#leetcode-hot-amp-top)
-- [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-%e5%89%91%e6%8c%87offer)
+- [Leetcode Hot & Top](#leetcode-hot--top)
+- [Sort by coding-interview (剑指offer)](#sort-by-coding-interview-剑指offer)
 - [Tag](#tag)
 - [Leetcode Other](#leetcode-other)
 
@@ -15,6 +15,7 @@ LeetCode solution (C++ and Python)
    * 对常用的数据结构、方法、套路进行整理
 * [ ] 3. 《剑指offer》二刷 (43/66)
 * [ ] 4. Leetcode [Hot 100](https://leetcode-cn.com/problemset/hot-100/) + [Top](https://leetcode-cn.com/problemset/top/) (45/156/245) (上传/完成/总数)
+* [ ] 5. 对2020/12/28上传的./python/*.py刷题记录进行整理，更新到本Readme中
  
 # Leetcode Hot & Top
 | Leetcode  | Solution  | Basic idea   |
