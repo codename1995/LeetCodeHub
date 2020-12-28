@@ -178,7 +178,7 @@ Here is a typical application for "saving time by space".
 Use a simple alphabet hash table so that we can check whether a character exist in string s
 or the first/last position of the character in string s.
 #### Template
-
+##### C++
 ```C++ {.line-numbers}
 /* Alphabet Hash Table Template
  *@method 
@@ -200,6 +200,22 @@ for (int i=0;i!=s.size();i++){
         balabala...
 }
 ```
+##### Python
+```Python {.line-numbers}
+# Solution 1
+cnt = collections.Counter(s)
+for c in s:
+    if (cnt[c]):
+        balabala
+
+# Solution 2
+cnt = [0 for _ in range(26)]
+for c in s:
+    cnt[c] = cnt.get(c, 0) + 1
+for c in s:
+    if (cnt[c]):
+        balabala...
+```
 
 #### Problems
 387 [First Unique Character in A String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)  
@@ -207,7 +223,7 @@ for (int i=0;i!=s.size();i++){
 
 ## Sliding windows
 #### Template
-
+##### C++
 ```C++ {.line-numbers}
 /* Sliding Windows Template
  *@method 
@@ -226,6 +242,17 @@ for (;r<s.size();r++){
         l++
 }
 ```
+##### Python
+```Python{.line-numbers}
+l = r = 0
+for r in range(0, n):
+    if (condition1):     # extand substring
+        continue
+    else:                # shorten substring
+        l += 1
+
+```
+
 #### Problems
 3 [Longest Substring without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  
 340 [Longest Substring with At Most two Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/) 
