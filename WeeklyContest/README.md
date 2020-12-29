@@ -16,7 +16,7 @@
 ||WC178_03 |[Linked List In Binary Tree](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | M|[C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC178_03_Linked_List_In_Binary_Tree/WC178_03_Linked_List_In_Binary_Tree.cpp) |
 ||WC178_04| 没看
 |2020/01/12| [WC171](https://leetcode-cn.com/contest/weekly-contest-171)| 这次还是懒得贴 |||
-||WC171_03 | [Number Of Operations To Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | M |[Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC171_03_Number_Of_Operations_To_Make_Network_Connected.py)|
+||WC171_03 | [Number Of Operations To Make Network Connected](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) | M |[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC171_03_Number_Of_Operations_To_Make_Network_Connected.py)|
 |2019/12/22| [WC168](https://leetcode-cn.com/contest/weekly-contest-168)| 这次依旧懒得贴 |||
 ||WC168_04| [你能从盒子里获得的最大糖果数 Maximum Candies You Can Get From Boxes](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes/WC168_04_Maximum_Candies_You_Can_Get_From_Boxes.cpp) |
 |2019/12/15| [WC167](https://leetcode-cn.com/contest/weekly-contest-167/) | 这次也懒得贴了
