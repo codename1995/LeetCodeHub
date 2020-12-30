@@ -1,6 +1,12 @@
 [TOC]
 
 ## Basic knowledge
+### Math
+#### 'inf'
+```python
+a = float('inf')
+b = float('-inf')
+```
 ### Subfunction
 Two method to define a subfunction, especially in Leetcode
 ```python
@@ -8,21 +14,24 @@ Two method to define a subfunction, especially in Leetcode
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         ...
-        #########  start  ########### 
+        #########  definition start  ########### 
         # all var in 'searchRange' and before the 'foo' can be directly used in 'foo'
         def foo(a, b):
             ...
-        ##########  end  ############ 
+        ##########  definition end  ############ 
+
+        foo(a,b)   # directly use
 
 # Method 2
 class Solution:
-    #########  start  ########### 
+    #########  definition start  ########### 
     # only var that are sent into 'foo' can be used in 'foo'
     def foo(self, a, b):
         ...
-    ##########  end  ############ 
+    ##########  definition end  ############ 
 
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        self.foo(a,b)   # self.foo()!!
         ...
 ```
 
