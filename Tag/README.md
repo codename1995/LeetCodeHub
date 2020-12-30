@@ -131,8 +131,35 @@ def Merge(A, l, m, r):
         else
             A[k] = R[j++]
 ```
+#### Python version
+```python{.line-numbers}
+def Merge_Sort(A, l, r):
+    if l<r:
+        m = l + (r-l)//2
+        A = Merge_Sort(A, l, m)
+        A = Merge_Sort(A, m+1, r)
+        A = Merge(A, l, m, r)
+    return A
+
+def Merge(A, l, m, r):
+    L = A[l, m+1]
+    L.append(float('inf'))
+    R = A[m+1, r+1]
+    R.append(float('inf'))
+    i = j = 0
+    for k in range(l,r+1):
+        if (L[i]<=R[j]):
+            A[k] = L[i]
+            i += 1
+        else:
+            A[k] = R[j]
+            j += 1
+
+    return A
+
+```
 #### Problems
-H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)
+H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/) (Solution based on **Divide and Conquer**)
 ### QUICK-SORT
 #### Pseudo-code
 ```cpp
@@ -140,15 +167,22 @@ H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)
         int pivot = nums[pivot_ix];
         swap(nums[r], nums[pivot_ix]);
 
-        int pos = l;
-        for (int i=l;i<=r;++i){
-            if (nums[i]>pivot){
-                swap(nums[i], nums[pos++]);
+        int pos = l-1;
+        for (int i=l;i<=r-1;++i){
+            if (nums[i]<=pivot){
+                swap(nums[i], nums[++pos]);
+                // maintain 4 regions
+                // | --- | --- | ------- | - |
+                // [l pos]    i]      r-1]  r]
+                // 1. l<=k<=pos,    nums[k]<=pivot
+                // 2. pos<k<=i,     nums[k]>pivot
+                // 3. i<k<=r-1,     nums[k]?pivot
+                // 4. k==r,         nums[k]==pivot(==nums[r])
             }
         }
 
-        swap(nums[pos], nums[r]);
-        return pos;
+        swap(nums[pos+1], nums[r]);
+        return pos+1;
     }
     void QUICK-SORT-CORE(vector<int> &array, int l, int r){
         if (l>=r) return; 
@@ -163,6 +197,36 @@ H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/)
             QUICK-SORT-CORE(array, 0, array.size()-1);
         return array;
     }
+```
+#### Python
+```python{.line-numbers}
+class Solution:
+    def partition(self, nums, l, r):
+        def swap(a, b):
+            return b, a
+        pivot = nums[r]
+        
+        pos = l - 1
+        for i in range(l, r):
+            if (nums[i] <= pivot):
+                pos += 1
+                swap(nums[i], nums[pos])
+        
+        sawp(nums[r], nums[pos+1])
+        return nums, pos+1
+    
+    def quickSort(self, nums, l, r):
+        if (l<r):
+            nums, pos = self.partition(nums, l, r)
+            nums = self.quickSort(nums, l, pos-1)
+            nums = self.quickSort(nums, pos+1, r)
+        return nums
+
+    def findKthLargest(self, nums, k):
+        nums = self.quickSort(nums, 0, len(nums)-1)
+        return nums[-k]
+
+
 ```
 
 #### Problem
