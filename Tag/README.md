@@ -118,8 +118,8 @@ def Merge_Sort(A, l, r):
         Merge(A, l, m, r)
 def Merge(A, l, m, r):
     # Procedure:
-    # 1. Copy the left and right part of array A to two new array
-    # 2. Merge two array to A one by one.
+    # 1. Copy the left and right part of array A to two new arraies
+    # 2. Like zipping up, merge two arraies to A one by one.
     L = A[l..m]
     L.append(float("INF"))
     R = A[m+1..r]
