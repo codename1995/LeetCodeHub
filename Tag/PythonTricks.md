@@ -1,6 +1,12 @@
 [TOC]
 
 ## Basic knowledge
+## deep copy
+```python
+c = [1,1,2]
+s = c       # s refer to c, s是c的引用
+d = c[::]   # d=copy.deepcopy(c), d是一个新数组，与c有相同的值
+```
 ### Math
 #### 'inf'
 ```python
