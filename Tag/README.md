@@ -22,7 +22,7 @@ Python doesn't need to consider this.
 ### BFS&DFS
 #### Depth-First Search
 Solution 1: DFS with queue / iterative DFS
-Here give an example for LC437 Path Sum 
+Here give an example for LC437 [Path Sum](https://leetcode-cn.com/problems/path-sum-iii/)
 ```C++ {.line-numbers}
 /**
  * Definition for a binary tree node.
@@ -172,8 +172,8 @@ H 493 [Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs/) (Solution
             if (nums[i]<=pivot){
                 swap(nums[i], nums[++pos]);
                 // maintain 4 regions
-                // | --- | --- | ------- | - |
-                // [l pos]    i]      r-1]  r]
+                // nums:    [ -1- | -2- | ---3--- | - ]
+                // ix:      [l pos]    i]      r-1]  r]
                 // 1. l<=k<=pos,    nums[k]<=pivot
                 // 2. pos<k<=i,     nums[k]>pivot
                 // 3. i<k<=r-1,     nums[k]?pivot
@@ -211,6 +211,13 @@ class Solution:
             if (nums[i] <= pivot):
                 pos += 1
                 swap(nums[i], nums[pos])
+                # maintain 4 regions
+                # nums:    [ -1- | -2- | ---3--- | - ]
+                # ix:      [l pos]    i]      r-1]  r]
+                # 1. l<=k<=pos,    nums[k]<=pivot
+                # 2. pos<k<=i,     nums[k]>pivot
+                # 3. i<k<=r-1,     nums[k]?pivot
+                # 4. k==r,         nums[k]==pivot(==nums[r])
         
         sawp(nums[r], nums[pos+1])
         return nums, pos+1
