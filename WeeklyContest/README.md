@@ -3,6 +3,8 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/01/10|WC223_03|[Minimize Hamming Distance After Swap Operations](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)| M | [Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC223_03_Minimize_Hamming_Distance_After_Swap_Operations.py) 并查集典型应用|
+||WC223_01|[Decode xored array](https://leetcode-cn.com/problems/decode-xored-array/) |E| a xor b = c </br> 异或的逆运算： </br> Python: a = - ( ~(c xor b) + 1)
 |2020/04/19|WC185_04|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons.cpp) 三维动态规划|
 |2020/04/12|WC184|第二次全A，但是是因为题目比较简单|||
 ||WC184_03|[HTML entity parser](https://leetcode-cn.com//problems/html-entity-parser/)|M|转义字符不熟悉|
@@ -151,6 +153,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC223 |1394/3870 |36.0%|
 |WC222 |547/3117 |17.5%|
 |WC221 |1003/3397 |29.5%|
 |WC185 |956/5001  |19.1%|
