@@ -6,6 +6,7 @@
 c = [1,1,2]
 s = c       # s refer to c, s是c的引用
 d = c[::]   # d=copy.deepcopy(c), d是一个新数组，与c有相同的值
+e = c[::-1] # e = [2, 1, 1] 将c逆转后深度拷贝给e
 ```
 ### Math
 #### 'inf'
