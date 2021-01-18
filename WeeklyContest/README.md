@@ -3,6 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/01/17|WC224_01|[Number Of Rectangles That Can Form The Largest Square](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)| E | 比较简单，直接 collections.Counter() 即可|
+||WC224_02|[Tuple with Same Product](https://leetcode-cn.com/problems/tuple-with-same-product/)|M| 标题其实已经给了暗示！！！ </br> 1. 以计数器统计所有积出现的次数 </br> 2. 对出现超过两次的积，进行计算
+||WC224_03| [Largest Submatrix With Rearrangements](https://leetcode-cn.com/problems/largest-submatrix-with-rearrangements/)|M| 看到布尔矩阵，优先想是不是用累加矩阵求解。本题思路：1.统计原矩阵每个位置处是这一列自上而下的第几个连续的1；2.按行计算，先降序排列，然后逐元素计算，若以这一元素为长方形右下角顶点，则此时面积为多少|
 |2021/01/10|WC223_03|[Minimize Hamming Distance After Swap Operations](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)| M | [Python](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCPython/WC223_03_Minimize_Hamming_Distance_After_Swap_Operations.py) 并查集典型应用|
 ||WC223_01|[Decode xored array](https://leetcode-cn.com/problems/decode-xored-array/) |E| a xor b = c </br> 异或的逆运算： </br> Python: a = - ( ~(c xor b) + 1)
 |2020/04/19|WC185_04|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) |H| [C++](https://github.com/codename1995/leetcodehub/blob/master/WeeklyContest/WCCPP/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons/WC185_04_Build_Array_Where_You_Can_Find_The_Maximum_Exactly_K_Comparisons.cpp) 三维动态规划|
@@ -153,6 +156,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC224 |607/3794 |16.0%|
 |WC223 |1394/3870 |36.0%|
 |WC222 |547/3117 |17.5%|
 |WC221 |1003/3397 |29.5%|
