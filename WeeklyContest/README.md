@@ -3,6 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/01/24|WC225_01|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)| E | 简单但错了两次，小时分钟时间表的hh部分，因为最大值为23，所以两位互有限制|
+||WC225_02|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode-cn.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/) | M | 三种情况都算一下然后取最小值即可|
+||WC225_03|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | M| 简单累计矩阵问题，知道异或的两条规则即可： </br> A^A=0, 0^A=A
 |2021/01/17|WC224_01|[Number Of Rectangles That Can Form The Largest Square](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)| E | 比较简单，直接 collections.Counter() 即可|
 ||WC224_02|[Tuple with Same Product](https://leetcode-cn.com/problems/tuple-with-same-product/)|M| 标题其实已经给了暗示！！！ </br> 1. 以计数器统计所有积出现的次数 </br> 2. 对出现超过两次的积，进行计算
 ||WC224_03| [Largest Submatrix With Rearrangements](https://leetcode-cn.com/problems/largest-submatrix-with-rearrangements/)|M| 看到布尔矩阵，优先想是不是用累加矩阵求解。本题思路：1.统计原矩阵每个位置处是这一列自上而下的第几个连续的1；2.按行计算，先降序排列，然后逐元素计算，若以这一元素为长方形右下角顶点，则此时面积为多少|
@@ -43,6 +46,8 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+#### WC225
+**第二题** 一直卡最后一个case，还以为是什么巨难的case，其实还是边界条件没有思考清楚
 
 #### WC185
 好长时间不刷题，只做周赛，所以能力下降得很明显，主要是对C++和Python很多基础语法都不熟悉了。
@@ -156,6 +161,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC225 |1328/3851 |34.5%|
 |WC224 |607/3794 |16.0%|
 |WC223 |1394/3870 |36.0%|
 |WC222 |547/3117 |17.5%|
