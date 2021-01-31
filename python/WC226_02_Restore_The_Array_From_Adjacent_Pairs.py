@@ -4,7 +4,7 @@ import collections
 class Solution:
     def restoreArray(self, adjacentPairs):
         n = len(adjacentPairs)
-        h = {} # k = value, v = [cnt, v1, v2]
+        h = {} # k = value, v = [cnt, adjacent value 1, adjacent value 2]
         for [a,b] in adjacentPairs:
             if h.get(a, [0,0,0])[0] == 0:
                 h[a] = [1, b]
