@@ -3,6 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/01/31|WC226_01|[Maximum Number of Balls in a Box](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)|E|略|
+||WC226_02|
+||WC226_03| [Can YouEat Your Favorite Candy on Your Favority Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) | M | 本质上是两个区间能否匹配的问题。具体地，指定日期能吃多少糖的区间 是否能和 最喜欢类别的糖的最大最小区间存在重叠区域。 [Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC226_03_Can_You_Eat_Your_Favorite_Candy_On_Your_Favorite_Day.py) |
 |2021/01/24|WC225_01|[Latest Time by Replacing Hidden Digits](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)| E | 简单但错了两次，小时分钟时间表的hh部分，因为最大值为23，所以两位互有限制|
 ||WC225_02|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode-cn.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/) | M | 三种情况都算一下然后取最小值即可|
 ||WC225_03|[Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | M| 简单累计矩阵问题，知道异或的两条规则即可： </br> A^A=0, 0^A=A
@@ -46,6 +49,11 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+#### WC226
+感觉最近思维速度下降了好多呀。思考第三题的边界的时候想了半天，幸好最后稀里糊涂想出来了，不然排名会很难看。
+一个建议是，**如果题目里给了一个比较复杂的组合变量，那调用时用具体的名称会比用索引更直观**。
+可以参考一下本次第三题的代码。
+
 #### WC225
 **第二题** 一直卡最后一个case，还以为是什么巨难的case，其实还是边界条件没有思考清楚
 
@@ -161,6 +169,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC226 |968/4033 |24.0%|
 |WC225 |1328/3851 |34.5%|
 |WC224 |607/3794 |16.0%|
 |WC223 |1394/3870 |36.0%|
