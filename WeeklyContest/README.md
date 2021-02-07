@@ -3,6 +3,9 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/02/07|WC227_01|[Check if Array Is Sorted and Rotated](https://leetcode-cn.com/problems/check-if-array-is-sorted-and-rotated/) | E | 数量级小的时候考虑Brute-force，如本题|
+||WC227_02|[Maximum Score From Removing Stones](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)|M|经典问题，可扩展到多堆。</br> 1. 若最大堆的石子数量大于其他堆之和，则答案为其他堆石子数量之和 </br> 2. 否则，答案为 石子总数除以二并向下取整 的值
+||WC227_03|[Largest Merge Of Two Strings](https://leetcode-cn.com/problems/largest-merge-of-two-strings/)|M| 直接用word1和word2的余下全字段比较，使用更“大”者的首字母，并将头指针往后移一位即可；最后记得将未用完的字段补在res后即可。|
 |2021/01/31|WC226_01|[Maximum Number of Balls in a Box](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)|E|略|
 ||WC226_02|[Restore The Array From Adjacent Pairs](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/) | M| 哈希表(k=value, v=[cnt, v1, v2])先遍历adjacentPairs 建立哈希表，然后遍历哈希表找到头或尾，最好自找到的值开始还原表 [Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC226_02_Restore_The_Array_From_Adjacent_Pairs.py)|
 ||WC226_03| [Can YouEat Your Favorite Candy on Your Favority Day?](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) | M | 本质上是两个区间能否匹配的问题。具体地，指定日期能吃多少糖的区间 是否能和 最喜欢类别的糖的最大最小区间存在重叠区域。 [Python](https://github.com/codename1995/leetcodehub/blob/master/python/WC226_03_Can_You_Eat_Your_Favorite_Candy_On_Your_Favorite_Day.py) |
@@ -49,6 +52,34 @@
 |||[重构 2 行二进制矩阵 Reconstruct a 2-Row Binary Matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)|M|[Python](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCPython/WC162_02_Reconstruct_a_2-Row_Binary_Matrix.py)|
 |||[统计封闭岛屿的数目 Number of Closed Islands](https://leetcode-cn.com/problems/number-of-closed-islands/)|M|[C++](https://github.com/codename1995/LeetCodeHub/blob/master/WeeklyContest/WCCPP/WC162_03_Number_of_Closed_Islands/WC162_03_Number_of_Closed_Islands.cpp)|
 ||||H||
+
+### 经验
+#### 刷题经验
+##### 第一题
+1. 数据量较小时，考虑Brute-force
+
+##### 第二题
+1. 做完第一题时，看一下第二题和第三题的通过率，优先做通过率高的
+
+##### 第三题
+1. 做完第二题时，看一下第四题通过率如何，如果通过率较高，优先做第四题
+
+#### 个人进步
+**目前的流程：**
+* 刷题
+* 复盘
+
+这样只能维持当前的水平缓慢下降，无法提升自己的水平
+
+**更合理的流程：**
+* 完整的学习-->建立知识体系
+* 刷题+复盘-->查漏补缺
+
+### 周赛流水账
+#### WC227
+这周的第一名用了4分钟解决前三题，而我用了77分钟。其中第三题做了50分钟，因为对问题的思考不够深入。如果能像第一名一样看穿问题的本质，代码其实很简短。
+
+
 #### WC226
 感觉最近思维速度下降了好多呀。思考第三题的边界的时候想了半天，幸好最后稀里糊涂想出来了，不然排名会很难看。
 一个建议是，**如果题目里给了一个比较复杂的组合变量，那调用时用具体的名称会比用索引更直观**。
@@ -169,6 +200,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|WC227 |724/3545 |20.4%|
 |WC226 |968/4033 |24.0%|
 |WC225 |1328/3851 |34.5%|
 |WC224 |607/3794 |16.0%|
