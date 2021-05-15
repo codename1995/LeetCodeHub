@@ -3,6 +3,10 @@
 
 |Date|Contest|Problem|Complexity|Solution|
 |---|---|---|---|---|
+|2021/05/15|BiWC52_01|Sorting the Sentence|E|熟练运用split, sort, join之后，三行代码搞定 </br> words = s.split() </br> words.sort(key=lambda x:x[-1]) </br> return ' '.join(w[:-1] for w in words)|
+||BiWC52_02|Incremental Memory Leak|M|略|
+||BiWC52_03|Rotating the Box|M|先假装改变重力方向为朝右，得到矩阵B，再根据旋转后的坐标变换关系查询矩阵B|
+||BiWC52_04|Sum of Floored Pairs|H|创建一个计数矩阵C和一个累加矩阵A，外循环v遍历1至maxx，内循环k遍历1至vk<=maxx。关键等式：v_based_sum = C[v]*(A[maxx]-A[vk-1])|
 |2021/02/07|WC227_01|[Check if Array Is Sorted and Rotated](https://leetcode-cn.com/problems/check-if-array-is-sorted-and-rotated/) | E | 数量级小的时候考虑Brute-force，如本题|
 ||WC227_02|[Maximum Score From Removing Stones](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)|M|经典问题，可扩展到多堆。</br> 1. 若最大堆的石子数量大于其他堆之和，则答案为其他堆石子数量之和 </br> 2. 否则，答案为 石子总数除以二并向下取整 的值
 ||WC227_03|[Largest Merge Of Two Strings](https://leetcode-cn.com/problems/largest-merge-of-two-strings/)|M| 直接用word1和word2的余下全字段比较，使用更“大”者的首字母，并将头指针往后移一位即可；最后记得将未用完的字段补在res后即可。|
@@ -76,6 +80,9 @@
 * 刷题+复盘-->查漏补缺
 
 ### 周赛流水账
+#### BiWC52
+长时间不刷题，可能这次的题对Python比较友好，差点四题都对了，最后一题晚了8分钟，可惜！
+
 #### WC227
 这周的第一名用了4分钟解决前三题，而我用了77分钟。其中第三题做了50分钟，因为对问题的思考不够深入。如果能像第一名一样看穿问题的本质，代码其实很简短。
 
@@ -200,6 +207,7 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|BiWC52|2542/10364|24.5%|
 |WC227 |724/3545 |20.4%|
 |WC226 |968/4033 |24.0%|
 |WC225 |1328/3851 |34.5%|
