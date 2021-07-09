@@ -4,7 +4,34 @@ A summary for problems with different tag. Best viewed in **VS Code** with the p
 [TOC]
 
 # Math
-TBC
+## Base conversion
+#### Python
+```python
+def n2b(x, b):
+    # integer to number in base b
+    # output a string
+    s = ""
+    while x>0:
+        s = str(int(x%b)) + s
+        x = x // b
+    return s
+# function test code
+s1 = n2b(10, 2)
+
+def b2n(s, b):
+    # number in base b to integer
+    # output a int number in base 10
+    x = 0
+    cur_b = 1
+    for ch in s[::-1]:
+        x += int(ch)*cur_b
+        cur_b *= b
+    return x
+# function test code
+x = b2n("1010", 2)
+
+```
+
 # Normal Operation
 ## MOD 1E9+7
 #### C++
