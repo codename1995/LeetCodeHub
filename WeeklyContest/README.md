@@ -80,6 +80,9 @@
 * 刷题+复盘-->查漏补缺
 
 ### 周赛流水账
+#### BiWC70
+Almost finish all questions. I was debugging the 3rd question at the last minute of the contest. And I finished it 5 minutes after the contest.
+
 #### BiWC52
 长时间不刷题，可能这次的题对Python比较友好，差点四题都对了，最后一题晚了8分钟，可惜！
 
@@ -207,6 +210,8 @@
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|BiWC70|1537/17655|**8.7%**|
+|BiWC69|2961/15120|19.6%|
 |BiWC52|2542/10364|24.5%|
 |WC227 |724/3545 |20.4%|
 |WC226 |968/4033 |24.0%|
