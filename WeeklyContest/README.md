@@ -210,6 +210,8 @@ Almost finish all questions. I was debugging the 3rd question at the last minute
 #### Rank
 |No. | Rank| Percent|
 |---|---|---|
+|BiWC87|2671/23589|11.3%|
+|BiWC75|5214/16330|31.9%|
 |BiWC70|1537/17655|**8.7%**|
 |BiWC69|2961/15120|19.6%|
 |BiWC52|2542/10364|24.5%|
