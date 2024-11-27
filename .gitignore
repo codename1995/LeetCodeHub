@@ -12,6 +12,7 @@ python/venv/
 *.user
 *.userosscache
 *.sln.docstates
+python/0.debug_panel.py
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
