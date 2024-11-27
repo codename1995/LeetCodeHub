@@ -58,3 +58,6 @@ print(", [Python](%s)\n"%(hyperlink_python))
 
 
 print(project_name)
+
+# [ID. Problem Name](Link)
+print("[%s. %s](%s)"%(idx, titled_hyperlink_with_space, hyperlink))
