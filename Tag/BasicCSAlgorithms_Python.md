@@ -7,11 +7,11 @@ Best viewed in **VS Code** with the plugin **Markdown Perview Enhanced**.
 # Search
 ## Binary search
 Actually, binary search has many variants, namely, 
-find target number,
-find first target number,
-find last target number,
-find last number less/not larger than target number,
-find first number larger/not less than target number,
+* find target number 
+* find first target number 
+* find last target number 
+* find last number less/not larger than target number
+* find first number larger/not less than target number,
 etc.
 
 I just present a basic version and two variants here. Other variants are easy to get based on these versions.
