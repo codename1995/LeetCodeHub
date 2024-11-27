@@ -1,6 +1,17 @@
 [TOC]
 
 ## Basic knowledge
+### Init an n*m array
+```python
+n, m = 4, 3
+
+# Correct
+a = [[0 for _ in range(m)] for _ in range(n)]
+# Wrong
+a = [[0]*m]*n
+```
+It's wrong because it quotes the same list n times, so if you change one element in one row, all the rows will be changed.
+
 ## deep copy
 ```python
 c = [1,1,2]
